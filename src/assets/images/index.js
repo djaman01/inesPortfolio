@@ -1,5 +1,5 @@
-import logoPhenix from "./logo-phenix-nobg.png"
+import logoInes from "./inesLogo.jpg"
 import inesAnda from "./inesAnda.jpg"
 
 
-export {logoPhenix, inesAnda}
+export {logoInes, inesAnda}
