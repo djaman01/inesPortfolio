@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 
 import MyButton from "../Components/MyButton";
 import { arrowRight } from "../assets/icones";
+import Presentation from "./Presentation";
 
 const HomePage = () => {
   useEffect(() => {
@@ -24,7 +25,7 @@ const HomePage = () => {
         <Header />
       </header>
 
-      <main className="relative mb-[1000px]">
+      <div className="relative">
         <div className="h-[650px] w-[1520px]">
           <img
             data-aos="fade-left"
@@ -67,7 +68,11 @@ const HomePage = () => {
             <MyButton label="Contact" iconURL={arrowRight} />
           </div>
         </div>
-      </main>
+      </div>
+
+      <div>
+        <Presentation />
+      </div>
     </>
   );
 };
