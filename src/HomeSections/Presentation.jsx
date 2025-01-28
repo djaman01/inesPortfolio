@@ -33,13 +33,16 @@ const Presentation = () => {
           </p>
 
           <p>
-          <span className="font-bold">J</span>e suis particulièrement sensible à une question que j'ai eu la
-            chance de relever dans la rédaction de mon mémoire de master : <span className="font-bold italic">celle
-            du lieu.</span> <br />
-            J'évoque le lieu comme un espace géographique physique mais aussi
-            culturel, géologique et historique, celui qui englobe tous les
-            éléments permettant d'identifier un espace et de permettre à une
-            population de s'identifier à ce lieu.
+            <span className="font-bold">J</span>e suis particulièrement sensible
+            à une question que j'ai eu la chance de relever dans la rédaction de
+            mon mémoire de master :{" "}
+            <span className="font-bold italic">celle du lieu.</span> <br />
+            <span className="italic">
+              J'évoque le lieu comme un espace géographique physique mais aussi
+              culturel, géologique et historique, celui qui englobe tous les
+              éléments permettant d'identifier un espace et de permettre à une
+              population de s'identifier à ce lieu.
+            </span>
           </p>
           <p>
             <span className="font-bold">A</span>u cours de mes années d'études

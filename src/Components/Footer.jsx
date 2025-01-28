@@ -1,5 +1,6 @@
 import { logoInes } from "../assets/images";
 
+
 const Footer = () => {
   //To go instantly to the top of the page, when redirecting to it
   const scrollToTop = () => {
@@ -54,7 +55,7 @@ const Footer = () => {
           <h4 className="font-montserrat mb-4 mt-2 text-2xl font-medium leading-normal">
             Réseaux Sociaux
           </h4>
-         
+          
         </div>
       </div>
     </footer>
