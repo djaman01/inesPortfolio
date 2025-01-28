@@ -8,11 +8,10 @@ const Header = () => {
       <nav className="max-container flex items-center justify-between">
         <Link to="/">
           <img
-            className="cursor-pointer"
+            className="cursor-pointer bg-white"
             src={logoInes}
             alt="Logo InesAnda"
             width={130}
-            height={29}
           />
         </Link>
 

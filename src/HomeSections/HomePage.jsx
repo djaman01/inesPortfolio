@@ -64,9 +64,6 @@ const HomePage = () => {
           >
             ENSA Versailles
           </h3>
-          <div data-aos="fade-right" data-aos-delay="2000" className="mt-10">
-            <MyButton label="Contact" iconURL={arrowRight} />
-          </div>
         </div>
       </div>
 
