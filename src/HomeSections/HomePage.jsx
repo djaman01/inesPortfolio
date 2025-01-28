@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import MyButton from "../Components/MyButton";
 import { arrowRight } from "../assets/icones";
 import Presentation from "./Presentation";
+import Footer from "../Components/Footer";
 
 const HomePage = () => {
   useEffect(() => {
@@ -70,6 +71,10 @@ const HomePage = () => {
       <div>
         <Presentation />
       </div>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
