@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#c4ecee]">
+    <footer className="bg-gray-300 mt-20 ">
       <div className="padding-x grid grid-cols-3 py-5 max-lg:grid-cols-1">
         <div className="flex flex-col items-center max-lg:order-2">
           <h4 className="font-montserrat mb-4 text-2xl font-medium leading-normal max-lg:mb-0">
@@ -20,10 +20,10 @@ const Footer = () => {
 
           <ul>
             <li className="font-roboto mt-3 text-lg leading-normal">
-              <b>Mail:</b> phenix.deals@gmail.com
+              <b>Mail:</b> @gmail.com
             </li>
             <li className="font-roboto mt-3 text-lg leading-normal">
-              <b>Tel:</b> 06-19-63-53-36
+              <b>Tel:</b> 
             </li>
           </ul>
         </div>
@@ -38,19 +38,14 @@ const Footer = () => {
             onClick={scrollToTop}
           />
           <div className="max-lg:mb-3">
-            <p className="text-white-400 mt-6 w-[400px] text-center font-mono text-base leading-7 max-lg:w-[350px] max-lg:text-center">
-              Site spécialisé dans la vente de tableaux d'artistes peintres
+            <p className="text-white-400 mt-6 w-[400px] text-center martian-mono-regular text-base leading-7 max-lg:w-[350px] max-lg:text-center">
+              Portfolio
             </p>
           </div>
         </div>
 
         <div className="flex flex-col items-center max-lg:order-3">
-          <h4 className="font-montserrat mb-4 text-2xl font-medium leading-normal">
-            À propos
-          </h4>
-          <p className="font-roboto mt-[-5px] cursor-pointer text-lg hover:underline">
-            Concept
-          </p>
+         
 
           <h4 className="font-montserrat mb-4 mt-2 text-2xl font-medium leading-normal">
             Réseaux Sociaux
