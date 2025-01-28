@@ -1,5 +1,5 @@
 import { logoInes } from "../assets/images";
-
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   //To go instantly to the top of the page, when redirecting to it
@@ -11,8 +11,8 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-300 mt-20 ">
-      <div className="padding-x grid grid-cols-3 py-5 max-lg:grid-cols-1">
+    <footer className="mt-20 bg-gray-300">
+      <div className="padding-x grid grid-cols-3 pb-2 pt-5 max-lg:grid-cols-1">
         <div className="flex flex-col items-center max-lg:order-2">
           <h4 className="font-montserrat mb-4 text-2xl font-medium leading-normal max-lg:mb-0">
             Contact
@@ -20,10 +20,10 @@ const Footer = () => {
 
           <ul>
             <li className="font-roboto mt-3 text-lg leading-normal">
-              <b>Mail:</b> @gmail.com
+              <b>Mail:</b> ines.anda@gmail.com
             </li>
             <li className="font-roboto mt-3 text-lg leading-normal">
-              <b>Tel:</b> 
+              <b>Tel:</b> +33 7 52 89 95 49
             </li>
           </ul>
         </div>
@@ -38,19 +38,32 @@ const Footer = () => {
             onClick={scrollToTop}
           />
           <div className="max-lg:mb-3">
-            <p className="text-white-400 mt-6 w-[400px] text-center martian-mono-regular text-base leading-7 max-lg:w-[350px] max-lg:text-center">
+            <p className="text-white-400 martian-mono-regular mt-3 w-[400px] text-center text-base leading-7 max-lg:w-[350px] max-lg:text-center">
               Portfolio
             </p>
           </div>
         </div>
 
         <div className="flex flex-col items-center max-lg:order-3">
-         
-
           <h4 className="font-montserrat mb-4 mt-2 text-2xl font-medium leading-normal">
-            Réseaux Sociaux
+            LinkedIn
           </h4>
-          
+
+          <a
+            href="https://www.linkedin.com/in/ines-benbrahim-andaloussi-b23502197/"
+            target="_blank"
+            rel="noopener"
+          >
+            <FaLinkedin
+              size={48}
+              style={{
+                color: "#fff", // LinkedIn logo color
+                backgroundColor: "#0077b5", // LinkedIn's signature color
+                borderRadius: "50%", // To make it circular
+                padding: "10px", // Padding to give it a circular background
+              }}
+            />
+          </a>
         </div>
       </div>
     </footer>
