@@ -49,7 +49,7 @@ const Header = () => {
             </div>
           </div>
 
-          <Link to="/vendre">
+          <Link to="/CV">
             <p className="cursor-pointer text-xl hover:text-slate-gray active:rounded-lg active:bg-[#00ff7f] active:px-2 active:py-1">
               CV
             </p>

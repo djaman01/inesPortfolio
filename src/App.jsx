@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomeSections/HomePage";
 import Contact from "./Pages/Contact";
+import CV from "./Pages/CV";
 
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/CV" element={<CV />}></Route>
       
     </Routes>
   </BrowserRouter>

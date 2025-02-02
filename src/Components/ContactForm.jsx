@@ -85,7 +85,7 @@ const ContactForm = () => {
                   id="lastName"
                   name="lastName"
                   type="text"
-                  placeholder="Votre Nom de famille"
+                  placeholder="Last Name"
                   className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 {/* ErrorMessage est ce qui permet de voir "Requis", si on appuie sur le champ mais qu'on ne le remplit pas et qu'on passe à un autre champ */}
@@ -104,8 +104,8 @@ const ContactForm = () => {
                   id="firstName"
                   name="firstName"
                   type="text"
-                  placeholder="Votre Prénom"
-                  className="mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  placeholder="First Name"
+                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="firstName"
@@ -122,8 +122,8 @@ const ContactForm = () => {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="Votre e-mail"
-                  className="mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  placeholder="E-mail"
+                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="email"
@@ -140,8 +140,8 @@ const ContactForm = () => {
                   id="phone"
                   name="phone"
                   type="tel"
-                  placeholder="Votre numéro"
-                  className="mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  placeholder="Phone Number"
+                  className=" font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="phone"
@@ -158,9 +158,9 @@ const ContactForm = () => {
                   id="message"
                   name="message"
                   as="textarea"
-                  placeholder="Your message"
+                  placeholder="Message"
                   rows="7"
-                  className="mx-auto block w-[800px] rounded border-2 border-gray-400 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  className="font-roboto mx-auto block w-[800px] rounded border-2 border-gray-400 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="message"

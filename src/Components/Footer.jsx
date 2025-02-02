@@ -46,23 +46,16 @@ const Footer = () => {
 
         <div className="flex flex-col items-center max-lg:order-3">
           <h4 className="font-montserrat mb-4 mt-2 text-2xl font-medium leading-normal">
-            LinkedIn
+            Linkedin
           </h4>
 
           <a
             href="https://www.linkedin.com/in/ines-benbrahim-andaloussi-b23502197/"
             target="_blank"
             rel="noopener"
+            className="mb-4 inline-block rounded-full bg-blue-700 p-4"
           >
-            <FaLinkedin
-              size={48}
-              style={{
-                color: "#fff", // LinkedIn logo color
-                backgroundColor: "#0077b5", // LinkedIn's signature color
-                borderRadius: "50%", // To make it circular
-                padding: "10px", // Padding to give it a circular background
-              }}
-            />
+            <FaLinkedin color="white" size={27} />{" "}
           </a>
         </div>
       </div>
