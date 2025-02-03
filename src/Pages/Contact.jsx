@@ -10,8 +10,7 @@ const Contact = () => {
   return (
     <>
       <Header />
-      <main className="bg-gray-100 px-4 pt-10">
-        {/* Title */}
+      <main className="bg-gray-100 px-4 pt-10 ">
         <div className="mb-10 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">Contact</h1>
           <p className="mt-2 text-lg text-gray-600">

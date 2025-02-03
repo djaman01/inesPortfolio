@@ -47,7 +47,7 @@ const HomePage = () => {
           <h2
             data-aos="fade-right"
             data-aos-delay="500"
-            className="playwrite mt-10 text-[26px]"
+            className="font-roboto text-[#451a03] mt-10 text-[29px]"
           >
             Ines Benbrahim Andaloussi
           </h2>

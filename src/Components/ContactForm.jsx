@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="mx-auto mb-4 w-[1200px] border-2 border-gray-400 px-20 pb-8 pt-5">
+      <div className="mx-auto mb-4 w-[1200px] border-2 border-gray-400 px-20 pb-8 pt-5 rounded-lg">
         <div className="prose mx-auto mb-10">
           <h1 className="text-[28px] font-extrabold text-gray-800">
             Envoyez un mail via ce formulaire
