@@ -115,6 +115,24 @@ const ContactForm = () => {
               </div>
 
               <div className="mb-10">
+                <label htmlFor="agence" className="font-roboto-bold text-lg">
+                  Agence d'architecture
+                </label>
+                <Field
+                  id="agence"
+                  name="agence"
+                  type="text"
+                  placeholder="Architecture agency"
+                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                />
+                <ErrorMessage
+                  name="firstName"
+                  component="div"
+                  className="error text-sm text-red-500"
+                />
+              </div>
+
+              <div className="mb-10">
                 <label htmlFor="email" className="font-roboto-bold text-lg">
                   E-mail
                 </label>
@@ -132,23 +150,6 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className="mb-10">
-                <label htmlFor="phone" className="font-roboto-bold text-lg">
-                  Téléphone
-                </label>
-                <Field
-                  id="phone"
-                  name="phone"
-                  type="tel"
-                  placeholder="Phone Number"
-                  className=" font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
-                />
-                <ErrorMessage
-                  name="phone"
-                  component="div"
-                  className="error text-sm text-red-500"
-                />
-              </div>
 
               <div className="col-span-2">
                 <label htmlFor="message" className="font-roboto-bold text-lg">
