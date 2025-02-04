@@ -42,8 +42,8 @@ const ContactForm = () => {
           initialValues={{
             lastName: "",
             firstName: "",
+            agence: "",
             email: "",
-            phone: "",
             message: "",
           }}
           validationSchema={Yup.object({
@@ -54,8 +54,7 @@ const ContactForm = () => {
               .max(20, "Doit comporter 20 caractères maximum")
               .required("Requis"),
             agence: Yup.string()
-              .max(50, "Doit comporter 50 caractères maximum")
-              .required("Requis"),
+              .max(50, "Doit comporter 50 caractères maximum"),
             email: Yup.string()
               .email("Adresse email invalide")
               .required("Requis"),
@@ -115,7 +114,6 @@ const ContactForm = () => {
                   className="error text-sm text-red-500"
                 />
               </div>
-
               <div className="mb-10">
                 <label htmlFor="agence" className="font-roboto-bold text-lg">
                   Agence d'architecture
@@ -172,7 +170,7 @@ const ContactForm = () => {
               </div>
             </div>
             <button
-              type="submit" //Dans un Formulaire Formik, lorsqu'on clique sur un bouton de type="submit", il appelle automatquement la fonction onSubmit définie dans le composant Formik
+              type="submit" //Dans un Formulaire Formik, lorsqu'on clique sur un bouton de type="submit", il appelle automatiquement la fonction onSubmit définie dans le composant Formik
               className="mt-5 rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none focus:ring-blue-500"
             >
               Envoyer
