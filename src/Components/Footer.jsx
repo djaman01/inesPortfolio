@@ -1,5 +1,6 @@
 import { logoInes } from "../assets/images";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   //To go instantly to the top of the page, when redirecting to it
@@ -46,17 +47,26 @@ const Footer = () => {
 
         <div className="flex flex-col items-center max-lg:order-3">
           <h4 className="font-montserrat mb-4 mt-2 text-2xl font-medium leading-normal">
-            Linkedin
+            Réseaux Sociaux
           </h4>
-
-          <a
-            href="https://www.linkedin.com/in/ines-benbrahim-andaloussi-b23502197/"
-            target="_blank"
-            rel="noopener"
-            className="mb-4 inline-block rounded-full bg-blue-700 p-4"
-          >
-            <FaLinkedin color="white" size={27} />{" "}
-          </a>
+          <div className="flex w-32 justify-between">
+            <a
+              href="https://www.linkedin.com/in/ines-benbrahim-andaloussi-b23502197/"
+              target="_blank"
+              rel="noopener"
+              className="mb-4 rounded-full bg-blue-700 p-3 hover:scale-110"
+            >
+              <FaLinkedin color="white" size={24} />{" "}
+            </a>
+            <a
+              href="https://www.instagram.com/arch.ines/"
+              target="_blank"
+              rel="noopener"
+              className="mb-4 items-center justify-center rounded-full bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 p-3 hover:scale-110"
+            >
+              <FaInstagram className="text-white" size={24} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

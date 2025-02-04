@@ -64,7 +64,7 @@ const ContactForm = () => {
           })}
           onSubmit={async (values, { resetForm }) => {
             // En 1er: le paramètre "values" capture les valeurs écrites dans le formulaire, donc même si on reset le form avant envoie, values stockera toujours les valeurs
-            alert("Formulaire envoyé:\nNous vous répondrons dès que possible");
+            alert("Formulaire envoyé:\nJe vous répondrais dès que possible");
             console.log("Form submitted with values: ", values); //Permet de voir dans la console ce qui a été rempli dans le formulaire après avoir cliquer sur envoyer
             resetForm(); //Reset l'affichage des valeurs sur la page, mais values store toujours les valeurs écrites dans le formulaire
 
@@ -160,7 +160,7 @@ const ContactForm = () => {
                   as="textarea"
                   placeholder="Message"
                   rows="7"
-                  className="font-roboto mx-auto block w-[800px] rounded border-2 border-gray-400 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  className="font-roboto mx-auto block w-[800px] rounded border-2 border-gray-400 leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="message"
