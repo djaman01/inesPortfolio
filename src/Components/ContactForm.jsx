@@ -12,10 +12,10 @@ const ContactForm = () => {
     //we pass to the "data" parameter, the values of the Form captured by Formik thanks to the "values" property in onSubmit
     return emailjs.send(
       //respecter cet ordre: 1)service_id 2) template_id 3) values du formulaire 4) publicKey
-      "service_pjw8ixl", // service_id => A trouver dans Section Email services
-      "template_yp3au9f", // template_id => A trouver dans section Email templates => Settings
+      "service_2gizxei", // service_id => A trouver dans Section Email services
+      "template_zmdv7r9", // template_id => A trouver dans section Email templates => Settings
       data, //values of the Form
-      "jbn6FFUwLocXKxqvT", // publicKey: A trouver dans account => API Keys
+      "Y0xUIekoCqNDAUq39", // publicKey: A trouver dans account => API Keys
     );
   };
 
@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="mx-auto mb-4 w-[1200px] border-2 border-gray-400 px-20 pb-8 pt-5 rounded-lg">
+      <div className="mx-auto mb-4 w-[1200px] rounded-lg border-2 border-gray-400 px-20 pb-8 pt-5">
         <div className="prose mx-auto mb-10">
           <h1 className="text-[28px] font-extrabold text-gray-800">
             Envoyez un mail via ce formulaire
@@ -53,10 +53,12 @@ const ContactForm = () => {
             firstName: Yup.string()
               .max(20, "Doit comporter 20 caractères maximum")
               .required("Requis"),
+            agence: Yup.string()
+              .max(50, "Doit comporter 50 caractères maximum")
+              .required("Requis"),
             email: Yup.string()
               .email("Adresse email invalide")
               .required("Requis"),
-            phone: Yup.string().required("Requis"),
             message: Yup.string()
               .min(30, "Doit comporter 30 caractères minimum")
               .required("Requis"),
@@ -126,7 +128,7 @@ const ContactForm = () => {
                   className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
-                  name="firstName"
+                  name="agence"
                   component="div"
                   className="error text-sm text-red-500"
                 />
@@ -149,7 +151,6 @@ const ContactForm = () => {
                   className="error text-sm text-red-500"
                 />
               </div>
-
 
               <div className="col-span-2">
                 <label htmlFor="message" className="font-roboto-bold text-lg">
