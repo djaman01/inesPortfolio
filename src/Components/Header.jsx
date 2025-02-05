@@ -31,7 +31,7 @@ const Header = () => {
                   Projets en école
                 </p>
               </Link>
-              <Link to="/tableaux">
+              <Link to="/memoire">
                 <p className="mb-2 py-1 pl-2 hover:bg-gray-200 active:bg-[#9ca3af] active:text-white">
                   Mémoire de recherche
                 </p>

@@ -27,7 +27,7 @@ const HomePage = () => {
       </header>
 
       <div className="relative">
-        <div className="h-[650px] w-[1520px]">
+        <div className="h-[650px] w-full">
           <img
             data-aos="fade-left"
             src={inesAnda}
@@ -47,7 +47,7 @@ const HomePage = () => {
           <h2
             data-aos="fade-right"
             data-aos-delay="500"
-            className="font-roboto text-[#451a03] mt-10 text-[29px]"
+            className="font-roboto mt-10 text-[29px] text-[#451a03]"
           >
             Ines Benbrahim Andaloussi
           </h2>
