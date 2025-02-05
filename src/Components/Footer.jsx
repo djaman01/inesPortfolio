@@ -1,6 +1,7 @@
 import { logoInes } from "../assets/images";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   //To go instantly to the top of the page, when redirecting to it
@@ -30,14 +31,16 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center max-lg:order-1">
-          <img
-            src={logoInes}
-            alt="Phenix logo"
-            width={150}
-            height={46}
-            className="cursor-pointer rounded-lg bg-white px-2 py-2"
-            onClick={scrollToTop}
-          />
+          <Link to="/">
+            <img
+              src={logoInes}
+              alt="Phenix logo"
+              width={150}
+              height={46}
+              className="cursor-pointer rounded-lg bg-white px-2 py-2"
+              onClick={scrollToTop}
+            />
+          </Link>
           <div className="max-lg:mb-3">
             <p className="text-white-400 martian-mono-regular mt-3 w-[400px] text-center text-base leading-7 max-lg:w-[350px] max-lg:text-center">
               Portfolio
