@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
 import {
   dessinInes,
   imagepara1,
   imagepara2,
   imagepara3,
-  inesAnda,
 } from "../assets/images";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
@@ -11,6 +11,7 @@ import Header from "../Components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 
 const Memoire = () => {
   useEffect(() => {
@@ -33,7 +34,9 @@ const Memoire = () => {
             Mémoire de recherche
           </h1>
           <p className="mt-2 text-lg text-gray-600">
-            Un résumé de mon mémoire ainsi qu'un lien pour le lire en entier
+            Un résumé de mon mémoire ou{" "}
+            <Link to="/lienMemoire" className="text-blue-600 underline hover:text-blue-800">cliquez sur ce lien</Link> pour le lire en
+            entier
           </p>
         </div>
 
@@ -49,8 +52,8 @@ const Memoire = () => {
         <main className="padding-b mt-1 overflow-hidden">
           <div className="my-10 grid grid-cols-2 grid-rows-[470px,400px,580px] max-lg:mx-5 max-lg:flex max-lg:flex-col max-lg:gap-y-5 lg:mx-16 lg:gap-x-14 lg:gap-y-20">
             <div className="max-lg:order-1 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:shadow-xl">
-              <h1 className="font-montserrat mb-4 text-center text-3xl font-bold text-blue-600 lg:mt-[-10px]">
-                S’approprier le lieu…
+              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#3403ed] lg:mt-[-10px]">
+                S'approprier le lieu…
               </h1>
               <p className="font-roboto text-lg leading-7">
                 Mon mémoire de recherche de fin d'études raconte l'histoire d'un
@@ -102,7 +105,7 @@ const Memoire = () => {
               data-aos="fade-left"
               className="max-lg:order-3 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:pb-5 max-lg:shadow-xl"
             >
-              <h1 className="font-montserrat mb-10 text-center text-3xl font-bold text-blue-600 max-lg:mb-4 lg:mt-[-10px]">
+              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#3403ed] max-lg:mb-4 lg:mt-[-10px]">
                 …connaître sa valeur…
               </h1>
 
@@ -137,13 +140,11 @@ const Memoire = () => {
               data-aos="fade-right"
               className="max-lg:order-5 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:pb-5 max-lg:shadow-xl"
             >
-              <h1 className="font-montserrat mb-5 text-center text-3xl font-bold text-blue-600 lg:mt-[-10px]">
+              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#3403ed] lg:mt-[-10px]">
                 ….Faire sans Refaire
               </h1>
               <p className="font-roboto text-lg leading-7">
-                <span className="underline">
-                  Alors le mémoire pose surtout les questions suivantes
-                </span>
+                <span>Le mémoire pose surtout les questions suivantes</span>
                 :
                 <br />
                 <ul className="list-disc pl-5">
