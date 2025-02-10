@@ -10,7 +10,6 @@ import { RxCross1 } from "react-icons/rx";
 import { FaRegThumbsUp } from "react-icons/fa";
 
 const SideBar = () => {
-
   const [toggled, setToggled] = useState(false);
 
   return (
@@ -30,33 +29,36 @@ const SideBar = () => {
             Accueil
           </MenuItem>
 
-          <SubMenu icon={<SlBasket size={20} />} label="Oeuvres">
+          <SubMenu icon={<SlBasket size={20} />} label="Portfolio">
             <MenuItem component={<Link to="/allArtists" />}>
-              Tous les Artistes
+              Projets en école
             </MenuItem>
-            <MenuItem component={<Link to="/tableaux" />}>Tous les Tableaux</MenuItem>
+            <MenuItem component={<Link to="/memoire" />}>
+              Mémoire de recherche
+            </MenuItem>
+            <MenuItem component={<Link to="/memoire" />}>
+              Projet de fin d'études
+            </MenuItem>
+            <MenuItem component={<Link to="/memoire" />}>
+              Projets en agence
+            </MenuItem>
           </SubMenu>
 
           <MenuItem
             icon={<FaRegThumbsUp size={19} />}
-            component={<Link to="/bestDeals" />}
+            component={<Link to="/CV" />}
           >
-            Best Deals
+                CV
           </MenuItem>
 
           <MenuItem
             icon={<CiPhone size={24} />}
-            component={<Link to="/vendre" />}
+            component={<Link to="/contact" />}
           >
             Contact
           </MenuItem>
 
-          <MenuItem
-            icon={<BsInfoCircle size={20} />}
-            component={<Link to="/concept" />}
-          >
-            Concept
-          </MenuItem>
+         
         </Menu>
       </Sidebar>
       {/* Le npm est codé de tel sorte à ce que le bouton apparaisse seul, puis quand on appuie la sidebar apparait */}

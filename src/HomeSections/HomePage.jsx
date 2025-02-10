@@ -27,41 +27,41 @@ const HomePage = () => {
       </header>
 
       <div className="relative">
-        <div className="border h-[630px] w-full max-lg:h-[400px]">
+        <div className="h-[630px] w-full border max-lg:h-[365px]">
           <img
             data-aos="fade-left"
             src={inesAnda}
             alt="Photo inès Andaloussi"
-            className="border h-full w-full rounded-2xl object-cover object-top"
+            className="h-full w-full rounded-2xl border object-cover object-top"
           />
         </div>
 
         {/* inset-0: place le div tout en haut-à gauche du container / bg-black/10: /10 = 10% opacity = on ne voit que 10% du bg-noir qui devient transparent pour assombrir l'image et mieux faire apparaitre le texte | /100 = bg tout noir = bg-black */}
-        <div className=" max-lg:w-80 absolute inset-0 flex flex-col items-center justify-center pr-96 text-white max-lg:pr-0 text-center">
+        <div className="absolute inset-0 flex flex-col items-center justify-center pr-96 text-center text-white max-lg:w-80 max-lg:pr-0">
           <h1
             data-aos="fade-right"
-            className="font-roboto-bold mt-[-140px] max-lg:mt-[-50px] text-[40px] lg:text-[45px] font-bold"
+            className="font-roboto-bold mt-[-140px] text-[45px] font-bold max-lg:mt-[-40px] max-lg:text-[37px]"
           >
             Portfolio
           </h1>
           <h2
             data-aos="fade-right"
             data-aos-delay="500"
-            className=" font-roboto-bold mt-10 text-[30px] lg:text-[35px] text-[#0F4C81]"
+            className="font-roboto-bold mt-10 text-[35px] text-[#0F4C81] max-lg:text-[28px]"
           >
-            Ines <span className="max-lg:block">Benbrahim Andaloussi</span> 
+            Ines <span className="max-lg:block">Benbrahim Andaloussi</span>
           </h2>
           <h3
             data-aos="fade-right"
             data-aos-delay="1000"
-            className=" font-roboto-bold mt-10 text-2xl lg:text-[30px] "
+            className="font-roboto-bold mt-10 text-[30px] max-lg:text-2xl"
           >
             Architecte diplomée d'État
           </h3>
           <h3
             data-aos="fade-right"
             data-aos-delay="1500"
-            className=" font-roboto-bold mt-2 lg:mt-4 text-2xl lg:text-[30px]"
+            className="font-roboto-bold mt-2 text-[30px] max-lg:text-2xl lg:mt-4"
           >
             ENSA Versailles
           </h3>

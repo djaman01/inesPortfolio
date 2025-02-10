@@ -16,7 +16,7 @@ const Presentation = () => {
           />
         </div>
 
-        <div className="w-2/3 max-lg:w-full space-y-4 text-gray-800 max-lg:text-xl">
+        <div className="w-2/3 max-lg:w-full space-y-4 text-gray-800 max-lg:text-[19px]">
           <p>
             <span className="font-bold">A</span>rchitecte diplômée d'état de
             l'ENSA Versailles depuis février 2024, j'ai eu la chance de
