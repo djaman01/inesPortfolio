@@ -16,7 +16,7 @@ const Presentation = () => {
           />
         </div>
 
-        <div className="w-2/3 max-lg:w-full space-y-4 text-gray-800 max-lg:text-[19px]">
+        <div className="w-2/3 max-lg:w-full space-y-4 text-gray-800 max-lg:text-[19px] text-[17px]">
           <p>
             <span className="font-bold">A</span>rchitecte diplômée d'état de
             l'ENSA Versailles depuis février 2024, j'ai eu la chance de
@@ -26,7 +26,7 @@ const Presentation = () => {
             professionnelle pour la HMONP poursuivie à l'Ecole Spéciale
             d'Architecture.
           </p>
-          <p>
+          <p className="">
             <span className="font-bold">L'</span>architecture est ma passion et
             je suis impatiente d'explorer cette passion de manière significative
             et innovante.

@@ -41,7 +41,7 @@ const Header = () => {
                   Projet de fin d'études
                 </p>
               </Link>
-              <Link to="/tableaux">
+              <Link to="/projetAgence">
                 <p className="mb-2 py-1 pl-2 hover:bg-gray-200 active:bg-[#9ca3af] active:text-white">
                   Projets en agence
                 </p>

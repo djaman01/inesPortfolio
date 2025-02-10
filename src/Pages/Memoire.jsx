@@ -12,7 +12,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 const Memoire = () => {
   useEffect(() => {
     Aos.init({
@@ -34,9 +33,14 @@ const Memoire = () => {
             Mémoire de recherche
           </h1>
           <p className="mt-2 text-lg text-gray-600">
-            Un résumé de mon mémoire ou {" "}
-            <Link to="/lienMemoire" className="text-blue-600 underline hover:text-blue-800">cliquez sur ce lien</Link> pour le lire en
-            entier
+            Un résumé de mon mémoire ou{" "}
+            <Link
+              to="/lienMemoire"
+              className="text-blue-600 underline hover:text-blue-800"
+            >
+              cliquez sur ce lien
+            </Link>{" "}
+            pour le lire en entier
           </p>
         </div>
 
@@ -49,7 +53,7 @@ const Memoire = () => {
           />
         </div>
 
-        <main className=" mt-1 overflow-hidden">
+        <main className="mt-1 overflow-hidden">
           <div className="my-10 grid grid-cols-2 grid-rows-[470px,400px,580px] max-lg:mx-5 max-lg:flex max-lg:flex-col max-lg:gap-y-5 lg:mx-16 lg:gap-x-14 lg:gap-y-20">
             <div className="max-lg:order-1 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:shadow-xl">
               <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] lg:mt-[-10px]">
@@ -71,7 +75,7 @@ const Memoire = () => {
                 <span className="font-bold">la référence d'un lieu</span>.
               </p>
               <br />
-              <p className="font-roboto text-lg leading-7  max-lg:text-[19px]">
+              <p className="font-roboto text-lg leading-7 max-lg:text-[19px]">
                 Mais alors, quelle est cette référence ? Est-elle substantielle
                 et tangible ou est-elle invisible et cérébrale ? Comment déceler
                 la chose qui définis le lieu, et en faire un usage pour faire
@@ -109,7 +113,7 @@ const Memoire = () => {
                 …connaître sa valeur…
               </h1>
 
-              <p className="font-roboto text-lg leading-7  max-lg:text-[19px]">
+              <p className="font-roboto text-lg leading-7 max-lg:text-[19px]">
                 Si
                 <span className="font-bold"> l'architecture vernaculaire </span>
                 est une architecture de{" "}
@@ -121,7 +125,7 @@ const Memoire = () => {
                 l'a relégué au rayon du démodé. <br />
               </p>
               <br />
-              <p className="font-roboto text-lg leading-7  max-lg:text-[19px]">
+              <p className="font-roboto text-lg leading-7 max-lg:text-[19px]">
                 <span className="font-bold"> L'architecture régionaliste</span>{" "}
                 qui tente de renouer avec ce vernaculaire est elle-même tenue
                 d'être potentiellement{" "}
@@ -143,7 +147,7 @@ const Memoire = () => {
               <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] lg:mt-[-10px]">
                 ….Faire sans Refaire
               </h1>
-              <p className="font-roboto text-lg leading-7  max-lg:text-[19px]">
+              <p className="font-roboto text-lg leading-7 max-lg:text-[19px]">
                 <span>Le mémoire pose surtout les questions suivantes</span>
                 :
                 <br />
@@ -159,7 +163,7 @@ const Memoire = () => {
                 </ul>
               </p>{" "}
               <br />
-              <p className="font-roboto text-lg leading-7  max-lg:text-[19px]">
+              <p className="font-roboto text-lg leading-7 max-lg:text-[19px]">
                 On verra dans ce mémoire que pour être quelque part, il faut
                 s'inscrire dans une{" "}
                 <span className="font-bold">temporalité</span> mais en faisant
@@ -176,7 +180,7 @@ const Memoire = () => {
                 , voit le jour.
               </p>
               <br />
-              <p className="font-roboto text-lg leading-7  max-lg:text-[19px]">
+              <p className="font-roboto text-lg leading-7 max-lg:text-[19px]">
                 On peut faire quelque part sans être régionaliste puisqu'on ne
                 cherche pas à valoriser une identité particulière, rassurer un
                 imaginaire, et le maintenir, mais plutôt{" "}

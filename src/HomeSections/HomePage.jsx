@@ -32,7 +32,7 @@ const HomePage = () => {
             data-aos="fade-left"
             src={inesAnda}
             alt="Photo inès Andaloussi"
-            className="h-full w-full rounded-2xl border object-cover object-top"
+            className="h-full w-full rounded-2xl border object-cover object-top "
           />
         </div>
 
