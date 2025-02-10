@@ -34,7 +34,7 @@ const Memoire = () => {
             Mémoire de recherche
           </h1>
           <p className="mt-2 text-lg text-gray-600">
-            Un résumé de mon mémoire ou{" "}
+            Un résumé de mon mémoire ou,{" "}
             <Link to="/lienMemoire" className="text-blue-600 underline hover:text-blue-800">cliquez sur ce lien</Link> pour le lire en
             entier
           </p>
@@ -52,7 +52,7 @@ const Memoire = () => {
         <main className="padding-b mt-1 overflow-hidden">
           <div className="my-10 grid grid-cols-2 grid-rows-[470px,400px,580px] max-lg:mx-5 max-lg:flex max-lg:flex-col max-lg:gap-y-5 lg:mx-16 lg:gap-x-14 lg:gap-y-20">
             <div className="max-lg:order-1 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:shadow-xl">
-              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#3403ed] lg:mt-[-10px]">
+              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] lg:mt-[-10px]">
                 S'approprier le lieu…
               </h1>
               <p className="font-roboto text-lg leading-7">
@@ -105,7 +105,7 @@ const Memoire = () => {
               data-aos="fade-left"
               className="max-lg:order-3 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:pb-5 max-lg:shadow-xl"
             >
-              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#3403ed] max-lg:mb-4 lg:mt-[-10px]">
+              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] max-lg:mb-4 lg:mt-[-10px]">
                 …connaître sa valeur…
               </h1>
 
@@ -140,7 +140,7 @@ const Memoire = () => {
               data-aos="fade-right"
               className="max-lg:order-5 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:pb-5 max-lg:shadow-xl"
             >
-              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#3403ed] lg:mt-[-10px]">
+              <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] lg:mt-[-10px]">
                 ….Faire sans Refaire
               </h1>
               <p className="font-roboto text-lg leading-7">

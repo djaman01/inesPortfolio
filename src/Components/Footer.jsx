@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="mt-20 bg-[#2b110a] text-white">
+    <footer className="mt-20 bg-[#0F4C81] text-white">
       <div className="padding-x grid grid-cols-3 pb-2 pt-5 max-lg:grid-cols-1">
         <div className="flex flex-col items-center max-lg:order-2">
           <h4 className="font-montserrat mb-4 text-2xl font-medium leading-normal max-lg:mb-0">

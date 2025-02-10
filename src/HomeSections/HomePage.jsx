@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
 
         {/* inset-0: place le div tout en haut-à gauche du container / bg-black/10: /10 = 10% opacity = on ne voit que 10% du bg-noir qui devient transparent pour assombrir l'image et mieux faire apparaitre le texte | /100 = bg tout noir = bg-black */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/10 pr-96 text-white">
+        <div className="absolute inset-0 flex flex-col items-center justify-center pr-96 text-white">
           <h1
             data-aos="fade-right"
             className="font-roboto mt-[-140px] text-[40px] font-bold"
@@ -47,7 +47,7 @@ const HomePage = () => {
           <h2
             data-aos="fade-right"
             data-aos-delay="500"
-            className="font-roboto mt-10 text-[29px] text-[#2b110a]"
+            className="font-roboto-bold mt-10 text-[29px] text-[#0F4C81]"
           >
             Ines Benbrahim Andaloussi
           </h2>
