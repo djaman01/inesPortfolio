@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="mx-auto mb-4 w-[1200px] rounded-lg border-2 border-gray-400 px-20 pb-8 pt-5">
+      <div className="max-lg:w-80 mx-auto mb-4 w-[1200px] rounded-lg border-2 border-gray-400 px-20 pb-8 pt-5">
         <div className="prose mx-auto mb-10">
           <h1 className="text-[28px] font-extrabold text-gray-800">
             Envoyez un mail via ce formulaire
@@ -53,8 +53,10 @@ const ContactForm = () => {
             firstName: Yup.string()
               .max(20, "Doit comporter 20 caractères maximum")
               .required("Requis"),
-            agence: Yup.string()
-              .max(50, "Doit comporter 50 caractères maximum"),
+            agence: Yup.string().max(
+              50,
+              "Doit comporter 50 caractères maximum",
+            ),
             email: Yup.string()
               .email("Adresse email invalide")
               .required("Requis"),
@@ -77,7 +79,7 @@ const ContactForm = () => {
           }}
         >
           <Form>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 max-lg:flex max-lg:flex-col ">
               <div className="mb-10">
                 <label htmlFor="lastName" className="font-roboto-bold text-lg">
                   Nom
@@ -87,7 +89,7 @@ const ContactForm = () => {
                   name="lastName"
                   type="text"
                   placeholder="Last Name"
-                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  className="max-lg:w-full font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 {/* ErrorMessage est ce qui permet de voir "Requis", si on appuie sur le champ mais qu'on ne le remplit pas et qu'on passe à un autre champ */}
                 <ErrorMessage
@@ -106,7 +108,7 @@ const ContactForm = () => {
                   name="firstName"
                   type="text"
                   placeholder="First Name"
-                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  className="max-lg:w-full font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="firstName"
@@ -123,7 +125,7 @@ const ContactForm = () => {
                   name="agence"
                   type="text"
                   placeholder="Architecture agency"
-                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  className="max-lg:w-full font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="agence"
@@ -141,7 +143,7 @@ const ContactForm = () => {
                   name="email"
                   type="email"
                   placeholder="E-mail"
-                  className="font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
+                  className="max-lg:w-full font-roboto mx-auto block w-96 rounded border-2 border-gray-400 px-3 py-2 text-center leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="email"
@@ -160,7 +162,7 @@ const ContactForm = () => {
                   as="textarea"
                   placeholder="Message"
                   rows="7"
-                  className="font-roboto mx-auto block w-[800px] rounded border-2 border-gray-400 leading-tight focus:border-blue-500 focus:outline-none"
+                  className="max-lg:w-full font-roboto mx-auto block w-[800px] rounded border-2 border-gray-400 leading-tight focus:border-blue-500 focus:outline-none"
                 />
                 <ErrorMessage
                   name="message"
