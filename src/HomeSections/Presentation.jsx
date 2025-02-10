@@ -2,13 +2,13 @@ import { planPres } from "../assets/images";
 
 const Presentation = () => {
   return (
-    <section className="my-7 px-20">
+    <section className="my-7 px-20 max-lg:px-9">
       <h2 className="font-roboto pb-10 text-center text-4xl font-bold text-gray-800 lg:text-[40px]">
         Présentation
       </h2>
 
-      <div className="flex items-center gap-10">
-        <div className="w-1/3">
+      <div className="flex items-center gap-10 max-lg:flex-col">
+        <div className="w-1/3 max-lg:w-full">
           <img
             src={planPres}
             alt="Architect Portfolio"
@@ -16,7 +16,7 @@ const Presentation = () => {
           />
         </div>
 
-        <div className="w-2/3 space-y-4 text-gray-800">
+        <div className="w-2/3 max-lg:w-full space-y-4 text-gray-800 max-lg:text-xl">
           <p>
             <span className="font-bold">A</span>rchitecte diplômée d'état de
             l'ENSA Versailles depuis février 2024, j'ai eu la chance de
