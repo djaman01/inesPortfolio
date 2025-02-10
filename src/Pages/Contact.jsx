@@ -25,7 +25,7 @@ const Contact = () => {
           {/* Email Card */}
           <div
             data-aos="fade-right"
-            className="flex w-96 max-lg:w-max max-lg:mx-auto flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg"
+            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-48"
           >
             <div className="mb-4 rounded-full bg-teal-500 p-4">
               <IoMailOutline color="white" size={24} />
@@ -37,7 +37,7 @@ const Contact = () => {
           {/* Phone Card */}
           <div
             data-aos="flip-up"
-            className="flex w-96 max-lg:w-max max-lg:mx-auto flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg"
+            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-48 "
           >
             <div className="mb-4 rounded-full bg-teal-500 p-4">
               <CiPhone color="white" size={24} />
@@ -51,7 +51,7 @@ const Contact = () => {
           {/* Social Card */}
           <div
             data-aos="fade-left"
-            className="flex w-96 max-lg:w-max max-lg:mx-auto flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg"
+            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-52"
           >
             <div className="mb-4 rounded-full bg-teal-500 p-4">
               <IoShareSocialOutline color="white" size={24} />
