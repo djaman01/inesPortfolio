@@ -28,7 +28,7 @@ const Memoire = () => {
       <Header />
 
       <main>
-        <div className="mb-10 mt-10 text-center">
+        <div className="mb-10 mt-5 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">
             Mémoire de recherche
           </h1>

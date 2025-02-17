@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <>
       <Header />
-      <main className="bg-gray-100 px-4 pt-10">
+      <main className="bg-gray-100 px-4 pt-5">
         <div className="mb-10 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">Contact</h1>
           <p className="mt-2 text-lg text-gray-600">
@@ -27,7 +27,7 @@ const Contact = () => {
             data-aos="fade-right"
             className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-48"
           >
-            <div className="mb-4 rounded-full bg-teal-500 p-4">
+            <div className="mb-4 rounded-full bg-[#0F4C81] p-4">
               <IoMailOutline color="white" size={24} />
             </div>
             <h2 className="mb-2 text-2xl font-semibold text-gray-700">Email</h2>
@@ -39,7 +39,7 @@ const Contact = () => {
             data-aos="flip-up"
             className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-48 "
           >
-            <div className="mb-4 rounded-full bg-teal-500 p-4">
+            <div className="mb-4 rounded-full bg-[#0F4C81] p-4">
               <CiPhone color="white" size={24} />
             </div>
             <h2 className="mb-2 text-2xl font-semibold text-gray-700">
@@ -53,7 +53,7 @@ const Contact = () => {
             data-aos="fade-left"
             className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-52"
           >
-            <div className="mb-4 rounded-full bg-teal-500 p-4">
+            <div className="mb-4 rounded-full bg-[#0F4C81] p-4">
               <IoShareSocialOutline color="white" size={24} />
             </div>
 
