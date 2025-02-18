@@ -39,8 +39,8 @@ const ProjetAgence = () => {
 
         {/* Paragraphe 1 et 1 image */}
         <div className="mx-10 mb-10 grid grid-cols-[500px_1fr] gap-5">
-          <div className="font-roboto h-[530px] border border-slate-gray px-5 pt-2 shadow-md">
-            <h1 className="pb-5 text-center text-2xl">
+          <div className="font-roboto h-[530px] px-5 pt-2 shadow-2xl ">
+            <h1 className="font-montserrat pb-5 text-center text-2xl font-bold text-[#0F4C81]">
               Bureaux et laboratoires, <br /> campus Paris-Saclay
             </h1>
             <p className="text-lg">
@@ -56,15 +56,15 @@ const ProjetAgence = () => {
             <img
               src={imageAgence1}
               alt="4 volumes pour une echelle urbaine"
-              className="h-full w-full border border-slate-gray object-fill"
+              className="h-full w-full object-fill"
             />
           </div>
         </div>
 
         {/* Paragraphe 2 et 2 images */}
         <div className="mx-10 mb-10 grid grid-cols-[500px_1fr_1fr] gap-5">
-          <div className="font-roboto h-[600px] border border-slate-gray px-5 pt-2 shadow-md">
-            <h1 className="pb-5 text-center text-2xl">
+          <div className="font-roboto h-[600px] px-5 pt-2 shadow-2xl">
+            <h1 className="font-montserrat pb-5 text-center text-2xl font-bold text-[#0F4C81]">
               Présentation du projet
             </h1>
             <p className="text-lg">
@@ -95,7 +95,7 @@ const ProjetAgence = () => {
               data-aos="fade-down"
               src={imageAgence2}
               alt="4 volumes pour une echelle urbaine"
-              className="h-full w-full border border-slate-gray object-fill"
+              className="h-full w-full object-fill"
             />
           </div>
           <div className="h-[600px] w-full">
@@ -103,15 +103,17 @@ const ProjetAgence = () => {
               data-aos="fade-up"
               src={imageAgence3}
               alt="4 volumes pour une echelle urbaine"
-              className="h-full w-full border border-slate-gray object-fill"
+              className="h-full w-full object-fill"
             />
           </div>
         </div>
 
         {/* Paragraphe 3 et 2 images */}
         <div className="mx-10 mb-10 grid grid-cols-[500px_1fr_1fr] gap-5">
-          <div className="font-roboto h-[530px] border border-slate-gray px-5 pt-2 shadow-md">
-            <h1 className="pb-5 text-center text-2xl">Missions accomplies</h1>
+          <div className="font-roboto h-[530px] px-5 pt-2 shadow-2xl">
+            <h1 className="font-montserrat pb-5 text-center text-2xl font-bold text-[#0F4C81]">
+              Missions accomplies
+            </h1>
 
             <p className="text-lg">
               J'ai contribué dès la phase APS en participant à des tâches
@@ -139,7 +141,7 @@ const ProjetAgence = () => {
               data-aos="fade-down"
               src={imageAgence4}
               alt="4 volumes pour une echelle urbaine"
-              className="h-full w-full border border-slate-gray object-fill"
+              className="h-full w-full object-fill"
             />
           </div>
           <div className="h-[530px] w-full">
@@ -147,7 +149,7 @@ const ProjetAgence = () => {
               data-aos="fade-up"
               src={imageAgence5}
               alt="4 volumes pour une echelle urbaine"
-              className="h-full w-full border border-slate-gray object-fill"
+              className="h-full w-full object-fill"
             />
           </div>
         </div>
