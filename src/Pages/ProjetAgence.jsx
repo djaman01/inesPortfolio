@@ -31,7 +31,7 @@ const ProjetAgence = () => {
   //On va coder un useEffect pour écouter les chgts de taille de l'écran en temps réel et rendre isMediumScreen true or false en fonction des chgts de tailles
   useEffect(() => {
     const handleResize = () => {
-      setIsMediumScreen(window.innerWidth >= 768); // Dès l'affichage de la page: Retourne true or false en comparant la taille de l'écran à 768px 
+      setIsMediumScreen(window.innerWidth >= 768); // Dès l'affichage de la page: Retourne true or false en comparant la taille de l'écran à 768px
     };
 
     window.addEventListener("resize", handleResize); //"resize" est un évenement qui écoute les chgts de taille de l'écran en temps réel: quand un utilisateur redimensionne la taille de l'écran, l'évenement va se déclencher et appler handleResize et met donc à jour dynamiquement isMediumScreen en true or false par rapport à 768px, pour refléter la largeur de la fenêtre en temps réel
@@ -48,13 +48,13 @@ const ProjetAgence = () => {
           <h1 className="text-4xl font-extrabold text-gray-800">
             Projet en agence
           </h1>
-          <p className="mt-2 text-lg text-gray-600">
+          <p className="mt-2 text-lg text-gray-600 mb-10">
             Agence Chartier Dalix - 2023
           </p>
         </div>
 
         {/* Paragraphe 1 et 1 image */}
-        <div className="mx-10 mb-10 grid grid-cols-[500px_1fr] gap-5 max-lg:mx-5 max-lg:flex max-lg:flex-col">
+        <div className="mx-10 mb-10 grid grid-cols-[500px_1fr] gap-5 max-lg:mx-5 max-lg:flex max-lg:flex-col lg:mb-20">
           <div className="font-roboto h-[530px] px-5 pt-2 shadow-2xl max-lg:h-auto max-lg:pb-3">
             <h1 className="font-montserrat pb-5 text-center text-2xl font-bold text-[#0F4C81]">
               Bureaux et laboratoires, <br /> campus Paris-Saclay
@@ -78,7 +78,7 @@ const ProjetAgence = () => {
         </div>
 
         {/* Paragraphe 2 et 2 images */}
-        <div className="mx-10 mb-10 grid grid-cols-[500px_1fr_1fr] gap-5 max-lg:mx-5 max-lg:flex max-lg:flex-col">
+        <div className="mx-10 mb-10 grid grid-cols-[500px_1fr_1fr] gap-5 max-lg:mx-5 max-lg:flex max-lg:flex-col lg:mb-20">
           <div className="font-roboto h-[600px] px-5 pt-2 shadow-2xl max-lg:h-auto max-lg:pb-3">
             <h1 className="font-montserrat pb-5 text-center text-2xl font-bold text-[#0F4C81]">
               Présentation du projet
