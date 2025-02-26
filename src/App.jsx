@@ -5,7 +5,8 @@ import CV from "./Pages/CV";
 import Memoire from "./Pages/Memoire";
 import LienMemoire from "./Pages/LienMemoire";
 import ProjetAgence from "./Pages/ProjetAgence";
-
+import ProjetFinEtude from "./Pages/ProjetFinEtude";
+import LienPFE from "./Pages/LienPFE";
 
 export default function App() {
   return (
@@ -17,6 +18,8 @@ export default function App() {
       <Route path="/memoire" element={<Memoire />}></Route>
       <Route path="/lienMemoire" element={<LienMemoire />}></Route>
       <Route path="/projetAgence" element={<ProjetAgence />}></Route>
+      <Route path="/projetFinEtude" element={<ProjetFinEtude />}></Route>
+      <Route path="/lienPFE" element={<LienPFE />}></Route>
       
     </Routes>
   </BrowserRouter>

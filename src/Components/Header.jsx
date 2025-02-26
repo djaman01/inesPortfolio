@@ -36,7 +36,7 @@ const Header = () => {
                   Mémoire de recherche
                 </p>
               </Link>
-              <Link to="/tableaux">
+              <Link to="/projetFinEtude">
                 <p className="mb-2 py-1 pl-2 hover:bg-gray-200 active:bg-[#9ca3af] active:text-white">
                   Projet de fin d'études
                 </p>

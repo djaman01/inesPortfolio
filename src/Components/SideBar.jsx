@@ -36,7 +36,7 @@ const SideBar = () => {
             <MenuItem component={<Link to="/memoire" />}>
               Mémoire de recherche
             </MenuItem>
-            <MenuItem component={<Link to="/memoire" />}>
+            <MenuItem component={<Link to="/projetFinEtude" />}>
               Projet de fin d'études
             </MenuItem>
             <MenuItem component={<Link to="/projetAgence" />}>

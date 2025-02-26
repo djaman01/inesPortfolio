@@ -39,7 +39,7 @@ const Memoire = () => {
               className="text-blue-600 underline hover:text-blue-800"
             >
               cliquez sur ce lien
-            </Link>{" "}
+            </Link>
             pour le lire en entier
           </p>
         </div>
