@@ -10,6 +10,10 @@ import imageAgence2 from "./img2Agc.jpg";
 import imageAgence3 from "./img3Agc.jpg";
 import imageAgence4 from "./img4Agc.jpg";
 import imageAgence5 from "./img5Agc.jpg";
+import paysage from "./planchePaysage.jpg";
+import place from "./planchePlace.jpg";
+import ecole from "./plancheEcole.jpg";
+import logement from "./plancheLogement.jpg";
 
 export {
   logoInes,
@@ -24,4 +28,8 @@ export {
   imageAgence3,
   imageAgence4,
   imageAgence5,
+  paysage,
+  place,
+  ecole,
+  logement
 };
