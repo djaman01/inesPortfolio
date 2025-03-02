@@ -23,7 +23,7 @@ const ProjetFinEtude = () => {
       <Header />
 
       <div className="mb-10 mt-5 text-center">
-        <h1 className="text-4xl font-extrabold text-gray-800">
+        <h1 className="text-4xl font-extrabold text-gray-800 max-lg:mx-1">
           Projet de fin d'études
         </h1>
         <p className="mt-2 text-lg text-gray-600">
@@ -39,7 +39,7 @@ const ProjetFinEtude = () => {
 
       {/* Intro */}
       <div
-        className="font-roboto-bold mx-64 rounded-2xl p-5 text-center text-xl shadow-2xl"
+        className="font-roboto-bold mx-64 max-lg:mx-1 rounded-2xl p-5 text-center text-xl shadow-2xl"
         data-aos="fade-left"
       >
         <h1>
@@ -56,10 +56,10 @@ const ProjetFinEtude = () => {
         </h1>
       </div>
 
-      <main className="mt-20 font-roboto mx-40 text-xl">
+      <main className="mt-20 font-roboto mx-40 max-lg:mx-0 text-xl">
         {/* Paysage */}
         <div className=" flex flex-col items-center">
-          <div>
+          <div className="max-lg:mx-5">
             <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
               LE PAYSAGE
             </h1>
@@ -90,7 +90,7 @@ const ProjetFinEtude = () => {
           <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
             LA PLACE
           </h1>
-          <div>
+          <div className="max-lg:mx-5">
             <h1>
               Dans un village marqué par la proximité des habitations mais
               dépourvu de lieu de rassemblement, une{" "}
@@ -103,7 +103,7 @@ const ProjetFinEtude = () => {
               protège cet espace, favorisant un nouvel usage collectif.
             </h1>
           </div>
-          <div>
+          <div className="max-lg:mx-2">
             <img src={place} alt="Planche Place" className="h-[1000px]" />
           </div>
         </div>
@@ -113,7 +113,7 @@ const ProjetFinEtude = () => {
           <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
             L'ÉCOLE
           </h1>
-          <div>
+          <div className="max-lg:mx-5">
             <h1>
               Face au besoin d'éducation, une{" "}
               <span className="font-bold">nouvelle école</span> en pisé armé est
@@ -127,7 +127,7 @@ const ProjetFinEtude = () => {
               ventilation naturelle.
             </h1>
           </div>
-          <div>
+          <div className="max-lg:mx-2">
             <img src={ecole} alt="Planche Ecole" className="h-[850px]" />
           </div>
         </div>
@@ -137,7 +137,7 @@ const ProjetFinEtude = () => {
           <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
             LE LOGEMENT
           </h1>
-          <div>
+          <div className="max-lg:mx-5">
             <h1>
               <span className="font-bold">Les logements</span>, implantés au
               cœur du village, respectent la logique de densité et d'intimité
@@ -152,7 +152,7 @@ const ProjetFinEtude = () => {
               des habitants.
             </h1>
           </div>
-          <div>
+          <div className="max-lg:mx-2">
             <img src={logement} alt="Planche Logement" className="h-[850px]" />
           </div>
         </div>
@@ -160,7 +160,7 @@ const ProjetFinEtude = () => {
 
       {/* Conclusion */}
       <div
-        className="font-roboto-bold mx-64 mt-10 rounded-2xl p-5 text-center text-xl shadow-2xl"
+        className="font-roboto-bold mx-64 max-lg:mx-1 mt-10 rounded-2xl p-5 text-center text-xl shadow-2xl"
         data-aos="fade-right"
       >
         <h1>
