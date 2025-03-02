@@ -39,7 +39,7 @@ const ProjetFinEtude = () => {
 
       {/* Intro */}
       <div
-        className="font-roboto-bold mx-64 rounded-2xl p-5 text-center text-xl shadow-xl"
+        className="font-roboto-bold mx-64 rounded-2xl p-5 text-center text-xl shadow-2xl"
         data-aos="fade-left"
       >
         <h1>
@@ -56,26 +56,28 @@ const ProjetFinEtude = () => {
         </h1>
       </div>
 
-      <main className="font-roboto mx-40 text-xl">
-
+      <main className="mt-20 font-roboto mx-40 text-xl">
         {/* Paysage */}
-        <div className="mt-20 flex flex-col items-center">
+        <div className=" flex flex-col items-center">
           <div>
-            <h1>
+            <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+              LE PAYSAGE
+            </h1>
+            <h2>
               L'intervention commence par la{" "}
               <span className="font-bold">restauration</span> des murs de
               soutènement et la{" "}
               <span className="font-bold">réhabilitation </span> des chemins
               structurant le village, assurant ainsi stabilité et continuité des
               circulations.
-            </h1>
+            </h2>
             <br />
-            <h1 className="mb-5">
+            <h2 className="mb-5">
               La reconstruction des murs en pierre sèche respecte les
               savoir-faire locaux, tout en intégrant des principes de sécurité
               parasismique et de gestion des eaux pluviales grâce à des drains
               et barbacanes.
-            </h1>
+            </h2>
           </div>
 
           <div>
@@ -85,6 +87,9 @@ const ProjetFinEtude = () => {
 
         {/* Place */}
         <div className="mt-20 flex flex-col items-center">
+          <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+            LA PLACE
+          </h1>
           <div>
             <h1>
               Dans un village marqué par la proximité des habitations mais
@@ -105,6 +110,9 @@ const ProjetFinEtude = () => {
 
         {/* Ecole */}
         <div className="mt-20 flex flex-col items-center">
+          <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+            L'ÉCOLE
+          </h1>
           <div>
             <h1>
               Face au besoin d'éducation, une{" "}
@@ -126,6 +134,9 @@ const ProjetFinEtude = () => {
 
         {/*Le logement  */}
         <div className="mt-20 flex flex-col items-center">
+          <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+            LE LOGEMENT
+          </h1>
           <div>
             <h1>
               <span className="font-bold">Les logements</span>, implantés au
@@ -145,9 +156,25 @@ const ProjetFinEtude = () => {
             <img src={logement} alt="Planche Logement" className="h-[850px]" />
           </div>
         </div>
-
-        {/*  */}
       </main>
+
+      {/* Conclusion */}
+      <div
+        className="font-roboto-bold mx-64 mt-10 rounded-2xl p-5 text-center text-xl shadow-2xl"
+        data-aos="fade-right"
+      >
+        <h1>
+          Ce projet est un{" "}
+          <span className="text-green-600">travail de couture </span> entre
+          l'existant et la reconstruction, cherchant à préserver l'identité du
+          village tout en l'adaptant aux défis contemporains. <br />
+          Loin d'un geste architectural étranger, il propose une lecture
+          attentive du lieu, conciliant techniques vernaculaires et stratégies
+          résilientes, dans une{" "}
+          <span className="text-green-600">continuité</span> respectueuse du
+          paysage et de la culture locale.
+        </h1>
+      </div>
 
       <Footer />
     </>
