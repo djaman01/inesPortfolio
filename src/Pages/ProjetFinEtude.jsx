@@ -39,7 +39,7 @@ const ProjetFinEtude = () => {
 
       {/* Intro */}
       <div
-        className="font-roboto-bold mx-64 max-lg:mx-1 rounded-2xl p-5 text-center text-xl shadow-2xl"
+        className="font-roboto-bold mx-64 rounded-2xl p-5 text-center text-xl shadow-2xl max-lg:mx-1"
         data-aos="fade-left"
       >
         <h1>
@@ -56,11 +56,11 @@ const ProjetFinEtude = () => {
         </h1>
       </div>
 
-      <main className="mt-20 font-roboto mx-40 max-lg:mx-0 text-xl">
+      <main className="font-roboto mx-40 mt-20 text-xl max-lg:mx-0">
         {/* Paysage */}
-        <div className=" flex flex-col items-center">
+        <div className="flex flex-col items-center">
           <div className="max-lg:mx-5">
-            <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+            <h1 className="font-montserrat mb-5 text-center text-3xl font-bold text-[#0F4C81]">
               LE PAYSAGE
             </h1>
             <h2>
@@ -87,7 +87,7 @@ const ProjetFinEtude = () => {
 
         {/* Place */}
         <div className="mt-20 flex flex-col items-center">
-          <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+          <h1 className="font-montserrat mb-5 text-center text-3xl font-bold text-[#0F4C81]">
             LA PLACE
           </h1>
           <div className="max-lg:mx-5">
@@ -110,7 +110,7 @@ const ProjetFinEtude = () => {
 
         {/* Ecole */}
         <div className="mt-20 flex flex-col items-center">
-          <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+          <h1 className="font-montserrat mb-5 text-center text-3xl font-bold text-[#0F4C81]">
             L'ÉCOLE
           </h1>
           <div className="max-lg:mx-5">
@@ -134,7 +134,7 @@ const ProjetFinEtude = () => {
 
         {/*Le logement  */}
         <div className="mt-20 flex flex-col items-center">
-          <h1 className="font-roboto-bold mb-5 text-center text-2xl text-slate-gray">
+          <h1 className="font-montserrat mb-5 text-center text-3xl font-bold text-[#0F4C81]">
             LE LOGEMENT
           </h1>
           <div className="max-lg:mx-5">
@@ -160,7 +160,7 @@ const ProjetFinEtude = () => {
 
       {/* Conclusion */}
       <div
-        className="font-roboto-bold mx-64 max-lg:mx-1 mt-10 rounded-2xl p-5 text-center text-xl shadow-2xl"
+        className="font-roboto-bold mx-64 mt-10 rounded-2xl p-5 text-center text-xl shadow-2xl max-lg:mx-1"
         data-aos="fade-right"
       >
         <h1>

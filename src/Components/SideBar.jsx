@@ -1,13 +1,8 @@
-import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
-import { Link } from "react-router-dom";
-import { IoHomeOutline } from "react-icons/io5";
-import { SlBasket } from "react-icons/sl";
-import { CiPhone } from "react-icons/ci";
-import { BsInfoCircle } from "react-icons/bs";
 import { useState } from "react";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { RxCross1 } from "react-icons/rx";
-import { FaRegThumbsUp } from "react-icons/fa";
+import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
+import { SlBasket } from "react-icons/sl";
+import { Menu, MenuItem, Sidebar, SubMenu } from "react-pro-sidebar";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   const [toggled, setToggled] = useState(false);
@@ -22,14 +17,9 @@ const SideBar = () => {
         transitionDuration={600}
       >
         <Menu className="mt-10">
-          <MenuItem
-            component={<Link to="/" />}
-            icon={<IoHomeOutline size={20} />}
-          >
-            Accueil
-          </MenuItem>
+          <MenuItem component={<Link to="/" />}>Accueil</MenuItem>
 
-          <SubMenu icon={<SlBasket size={20} />} label="Portfolio">
+          <SubMenu label="Portfolio">
             <MenuItem component={<Link to="/allArtists" />}>
               Projets en école
             </MenuItem>
@@ -44,21 +34,9 @@ const SideBar = () => {
             </MenuItem>
           </SubMenu>
 
-          <MenuItem
-            icon={<FaRegThumbsUp size={19} />}
-            component={<Link to="/CV" />}
-          >
-                CV
-          </MenuItem>
+          <MenuItem component={<Link to="/CV" />}>CV</MenuItem>
 
-          <MenuItem
-            icon={<CiPhone size={24} />}
-            component={<Link to="/contact" />}
-          >
-            Contact
-          </MenuItem>
-
-         
+          <MenuItem component={<Link to="/contact" />}>Contact</MenuItem>
         </Menu>
       </Sidebar>
       {/* Le npm est codé de tel sorte à ce que le bouton apparaisse seul, puis quand on appuie la sidebar apparait */}

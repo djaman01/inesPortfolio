@@ -26,7 +26,7 @@ const Header = () => {
               Portfolio
             </p>
             <div className="font-roboto absolute z-10 hidden w-52 cursor-pointer rounded-lg bg-white font-serif shadow-xl ring-1 ring-slate-900/5 group-hover:block">
-              <Link to="/allArtists">
+              <Link to="/projetsEcole">
                 <p className="mb-3 mt-2 py-1 pl-2 hover:bg-gray-200 active:bg-[#9ca3af] active:text-white">
                   Projets en école
                 </p>

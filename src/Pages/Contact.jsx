@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="mb-10 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">Contact</h1>
           <p className="mt-2 text-lg text-gray-600">
-            À votre disposition pour toute demande ou collaboration
+            Pour toute demande ou collaboration
           </p>
         </div>
 

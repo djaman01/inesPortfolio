@@ -7,6 +7,7 @@ import LienMemoire from "./Pages/LienMemoire";
 import ProjetAgence from "./Pages/ProjetAgence";
 import ProjetFinEtude from "./Pages/ProjetFinEtude";
 import LienPFE from "./Pages/LienPFE";
+import ProjetsEcole from "./Pages/ProjetsEcole";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Route path="/" element={<HomePage />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
       <Route path="/CV" element={<CV />}></Route>
+      <Route path="/projetsEcole" element={<ProjetsEcole />}></Route>
       <Route path="/memoire" element={<Memoire />}></Route>
       <Route path="/lienMemoire" element={<LienMemoire />}></Route>
       <Route path="/projetAgence" element={<ProjetAgence />}></Route>
