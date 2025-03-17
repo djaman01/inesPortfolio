@@ -20,7 +20,7 @@ const SideBar = () => {
           <MenuItem component={<Link to="/" />}>Accueil</MenuItem>
 
           <SubMenu label="Portfolio">
-            <MenuItem component={<Link to="/allArtists" />}>
+            <MenuItem component={<Link to="/projetsEcole" />}>
               Projets en école
             </MenuItem>
             <MenuItem component={<Link to="/memoire" />}>

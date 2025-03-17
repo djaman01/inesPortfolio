@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { projet1, projet2, projet3, projet4, projet5 } from "../assets/images";
 
 const ProjetsEcole = () => {
   useEffect(() => {
@@ -24,11 +25,11 @@ const ProjetsEcole = () => {
             Projets en École
           </h1>
           <p className="mb-10 mt-2 text-lg text-gray-600">
-            Présentation des projets réalisés durant mes études
+            Cliquez sur les images pour voir le projet plus en détail
           </p>
         </div>
 
-        <div className="mx-40 mt-16 flex max-lg:mx-5 max-lg:mt-0 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-0 max-lg:flex-col">
           <div
             className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
@@ -36,80 +37,86 @@ const ProjetsEcole = () => {
             <h1>Projet 1</h1>
           </div>
           <div
-            className="w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
-            <h2>Details about Projet 1</h2>
+            <img
+              src={projet1}
+              alt="Projet en Finlande"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-5 max-lg:mt-16 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 1</h1>
+            <h1>Projet 2</h1>
           </div>
           <div
-            className="w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
-            <h2>Details about Projet 1</h2>
+            <img
+              src={projet2}
+              alt="Projet en Finlande"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-5 max-lg:mt-16 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 1</h1>
+            <h1>Projet 3</h1>
           </div>
           <div
-            className="w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
-            <h2>Details about Projet 1</h2>
+            <img
+              src={projet3}
+              alt="Projet en Finlande"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-5 max-lg:mt-16 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 1</h1>
+            <h1>Projet 4</h1>
           </div>
           <div
-            className="w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
-            <h2>Details about Projet 1</h2>
+            <img
+              src={projet4}
+              alt="Projet en Finlande"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-5 max-lg:mt-16 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 1</h1>
+            <h1>Projet 5</h1>
           </div>
           <div
-            className="w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
-            <h2>Details about Projet 1</h2>
-          </div>
-        </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-5 max-lg:mt-16 max-lg:flex-col">
-          <div
-            className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
-            data-aos="fade-right"
-          >
-            <h1>Projet 1</h1>
-          </div>
-          <div
-            className="w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
-            data-aos="fade-left"
-          >
-            <h2>Details about Projet 1</h2>
+            <img
+              src={projet5}
+              alt="Projet en Finlande"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
       </main>

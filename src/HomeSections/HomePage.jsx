@@ -5,8 +5,6 @@ import Header from "../Components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import MyButton from "../Components/MyButton";
-import { arrowRight } from "../assets/icones";
 import Presentation from "./Presentation";
 import Footer from "../Components/Footer";
 
@@ -15,7 +13,7 @@ const HomePage = () => {
     Aos.init({
       once: true,
       offset: 100,
-      duration: 1000,
+      duration: 900,
       easing: "ease-in-out",
     });
   });
