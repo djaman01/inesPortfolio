@@ -25,19 +25,21 @@ const ProjetsEcole = () => {
             Projets en École
           </h1>
           <p className="mb-10 mt-2 text-lg text-gray-600">
-            Cliquez sur les images pour voir le projet plus en détail
+            Cliquez sur les images pour voir les projets plus en détail
           </p>
         </div>
 
-        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-0 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#eec233] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 1</h1>
+            <h1 className="montserrat-strong text-center text-gray-900">
+              Architecture de l'atmosphère - Finlande
+            </h1>
           </div>
           <div
-            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
             <img
@@ -49,13 +51,15 @@ const ProjetsEcole = () => {
         </div>
         <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#3a5a98] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 2</h1>
+            <h1 className="montserrat-strong text-center text-gray-900">
+              At the edge of physics - <br /> Chili
+            </h1>
           </div>
           <div
-            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
             <img
@@ -67,13 +71,15 @@ const ProjetsEcole = () => {
         </div>
         <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#2e8b57] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 3</h1>
+            <h1 className="montserrat-strong text-center text-gray-900">
+              Construire une coopérative - Suisse
+            </h1>
           </div>
           <div
-            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
             <img
@@ -85,13 +91,15 @@ const ProjetsEcole = () => {
         </div>
         <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#b87333] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 4</h1>
+            <h1 className="montserrat-strong text-center text-gray-900">
+              Habiter le monde - <br/> France
+            </h1>
           </div>
           <div
-            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
             <img
@@ -103,13 +111,15 @@ const ProjetsEcole = () => {
         </div>
         <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="h-56 w-1/4 border border-red-400 max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#a0a0a0] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
-            <h1>Projet 5</h1>
+            <h1 className="montserrat-strong text-center text-gray-900">
+              Architecture de l'atmosphère - Finlande
+            </h1>
           </div>
           <div
-            className="h-56 w-3/4 border border-red-400 max-lg:h-[410px] max-lg:w-full"
+            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
             data-aos="fade-left"
           >
             <img

@@ -58,6 +58,13 @@
     font-weight: 500;
     font-style: normal;
   }
+  .montserrat-strong {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+  }
 
   .martian-mono-regular {
     font-family: "Martian Mono", monospace;
