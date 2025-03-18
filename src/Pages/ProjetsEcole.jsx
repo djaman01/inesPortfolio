@@ -24,14 +24,14 @@ const ProjetsEcole = () => {
           <h1 className="text-4xl font-extrabold text-gray-800">
             Projets en École
           </h1>
-          <p className="mb-10 mt-2 text-lg text-gray-600">
+          <p className="mb-10 mt-2 text-lg text-gray-600 max-lg:mx-2">
             Cliquez sur les images pour voir les projets plus en détail
           </p>
         </div>
 
-        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#eec233] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#0F4C81] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
             <h1 className="montserrat-strong text-center text-gray-900">
@@ -49,9 +49,10 @@ const ProjetsEcole = () => {
             />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+
+        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
-            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#3a5a98] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
+            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#eec233] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
             <h1 className="montserrat-strong text-center text-gray-900">
@@ -69,7 +70,8 @@ const ProjetsEcole = () => {
             />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+
+        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#2e8b57] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
@@ -89,13 +91,14 @@ const ProjetsEcole = () => {
             />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+
+        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#b87333] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
             <h1 className="montserrat-strong text-center text-gray-900">
-              Habiter le monde - <br/> France
+              Habiter le monde - <br /> France
             </h1>
           </div>
           <div
@@ -109,13 +112,14 @@ const ProjetsEcole = () => {
             />
           </div>
         </div>
-        <div className="mx-40 mt-16 flex max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+
+        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
             className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#a0a0a0] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
             data-aos="fade-right"
           >
             <h1 className="montserrat-strong text-center text-gray-900">
-              Architecture de l'atmosphère - Finlande
+              Le théâtre du monde - <br /> France
             </h1>
           </div>
           <div
