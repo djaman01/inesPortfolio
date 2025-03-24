@@ -4,7 +4,8 @@ import Header from "../Components/Header";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { projet1, projet2, projet3, projet4, projet5 } from "../assets/images";
+import { Link } from "react-router-dom";
+import { projet1, projet2, projet3, projet4, projet5 } from "../assets/images/projetsEcole";
 
 const ProjetsEcole = () => {
   useEffect(() => {
@@ -29,26 +30,28 @@ const ProjetsEcole = () => {
           </p>
         </div>
 
-        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
-          <div
-            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#0F4C81] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
-            data-aos="fade-right"
-          >
-            <h1 className="montserrat-strong text-center text-gray-900">
-              Architecture de l'atmosphère - Finlande
-            </h1>
+        <Link to="/saunaFinlande">
+          <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+            <div
+              className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#0F4C81] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
+              data-aos="fade-right"
+            >
+              <h1 className="montserrat-strong text-center text-gray-900">
+                Architecture de l'atmosphère - <br /> Finlande
+              </h1>
+            </div>
+            <div
+              className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
+              data-aos="fade-left"
+            >
+              <img
+                src={projet1}
+                alt="Projet en Finlande"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
-          <div
-            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
-            data-aos="fade-left"
-          >
-            <img
-              src={projet1}
-              alt="Projet en Finlande"
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
+        </Link>
 
         <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div
@@ -65,8 +68,8 @@ const ProjetsEcole = () => {
           >
             <img
               src={projet2}
-              alt="Projet en Finlande"
-              className="h-full w-full object-cover"
+              alt="Projet au Chili"
+              className="h-full w-full object-cover "
             />
           </div>
         </div>
