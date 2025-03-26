@@ -82,7 +82,7 @@ const ImagesComp = ({
   };
   return (
     <>
-      <div className="mb-36 mt-10 rounded-2xl bg-[#dcdee7]">
+      <div className="rounded-2xl bg-[#ccced7]">
         <Slider
           {...settings}
           className="mx-auto max-lg:mt-7 lg:h-[700px] lg:w-[900px]"
