@@ -69,6 +69,8 @@ const ImagesComp = ({
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          infinite: true,
+          dots: true,
         },
       },
       {
@@ -76,30 +78,30 @@ const ImagesComp = ({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          infinite: true,
+          dots: true,
         },
       },
     ],
   };
   return (
     <>
-      <div className="rounded-2xl bg-[#ccced7]">
-        <Slider
-          {...settings}
-          className="mx-auto max-lg:mt-7 lg:h-[700px] lg:w-[900px]"
-        >
+      <div className="rounded-2xl">
+        <Slider {...settings} className="mx-auto lg:h-[700px] lg:w-[900px]">
           <div className="px-2 lg:h-[700px]">
             <img
               src={image1}
               alt={alt1}
-              className="h-full w-full rounded-2xl border-4 border-black object-contain"
+              className="h-full w-full rounded-2xl object-contain max-lg:h-72"
             />
+            {/* max-lg:h-72 permet d'aligner toutes les images en responsives (c'est la seule manière que j'ai trouvé car si on fait my-20, si je mets une autre images ça ne sera pas bien centré) */}
           </div>
 
           <div className="px-2 lg:h-[700px]">
             <img
               src={image2}
               alt={alt2}
-              className="h-full w-full rounded-2xl border-4 border-black object-contain"
+              className="h-full w-full rounded-2xl object-contain max-lg:h-72"
             />
           </div>
 
@@ -107,7 +109,7 @@ const ImagesComp = ({
             <img
               src={image3}
               alt={alt3}
-              className="h-full w-full rounded-2xl border-4 border-black object-contain"
+              className="h-full w-full rounded-2xl object-contain max-lg:h-72"
             />
           </div>
 
@@ -115,7 +117,7 @@ const ImagesComp = ({
             <img
               src={image4}
               alt={alt4}
-              className="h-full w-full rounded-2xl border-4 border-black object-contain"
+              className="h-full w-full rounded-2xl object-contain max-lg:h-72"
             />
           </div>
 
@@ -123,7 +125,7 @@ const ImagesComp = ({
             <img
               src={image5}
               alt={alt5}
-              className="h-full w-full rounded-2xl border-4 border-black object-contain"
+              className="h-full w-full rounded-2xl object-contain max-lg:h-72"
             />
           </div>
 
@@ -133,7 +135,7 @@ const ImagesComp = ({
               <img
                 src={image6}
                 alt={alt6}
-                className="h-full w-full rounded-2xl border-4 border-black object-fill"
+                className="h-full w-full rounded-2xl object-contain max-lg:h-72"
               />
             </div>
           )}
@@ -143,7 +145,7 @@ const ImagesComp = ({
               <img
                 src={image7}
                 alt={alt7}
-                className="h-full w-full rounded-2xl border-4 border-black object-fill"
+                className="h-full w-full rounded-2xl object-contain max-lg:h-72"
               />
             </div>
           )}
@@ -153,7 +155,7 @@ const ImagesComp = ({
               <img
                 src={image8}
                 alt={alt8}
-                className="h-full w-full rounded-2xl border-4 border-black object-fill"
+                className="h-full w-full rounded-2xl object-contain max-lg:h-72"
               />
             </div>
           )}

@@ -11,7 +11,7 @@ import ImagesComp from "../Components/ImagesComp";
 
 const SaunaFinlande = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <Header />
       <div className="mb-5 mt-5 text-center">
         <h1 className="text-4xl font-extrabold text-gray-800">
@@ -35,50 +35,36 @@ const SaunaFinlande = () => {
         alt5="Sauna en Finlande 5"
       />
 
-      <div className="font-roboto mx-40 mt-20 bg-gray-100 p-6 text-xl leading-relaxed">
+      <div className="font-roboto mx-32 mt-20 text-xl leading-relaxed max-lg:mx-5">
         <p>
-          <span className="font-bold">Le sauna</span> s'insère sur le site de la{" "}
-          <span className="font-bold">maison expérimentale</span> d'Alvar Aalto
-          à Muuratsalo, <span className="font-bold">près du lac</span> pour
-          permettre les aller-retour vers l'eau froide.
+          Le sauna s'insère sur le site de la maison expérimentale d'Alvar Aalto
+          à Muuratsalo, près du lac pour permettre les aller-retour vers l'eau
+          froide.
         </p>
-        <p>
-          {" "}
-          Si l'on ne retrouve traditionnellement la{" "}
-          <span className="font-bold">pierre</span> que sous la forme d'un amas
-          au dessus du feu, dans un sauna, ses qualités physiques et visuelles
-          savent procurer des{" "}
-          <span className="font-bold">sensations fortes</span>, que ce projet
-          donne à voir et à ressentir.
+        <p className="my-2">
+          Si l'on ne retrouve traditionnellement la pierre que sous la forme
+          d'un amas au dessus du feu, dans un sauna, ses qualités physiques et
+          visuelles savent procurer des sensations fortes, que ce projet donne à
+          voir et à ressentir.
         </p>
         <p className="py-5 text-center text-xl font-bold italic text-[#0F4C81]">
           La pierre expose ses qualités et donne accès à ses sensations.
         </p>
         <p>
-          <span className="font-bold"> Le principe du sauna </span> est celui
-          d'une masse de pierres qui prends une
-          <span className="font-bold"> forme propre</span>: on passe d'une
-          pierre sauvage à une architecture de pierre plus maîtrisée jusqu'aux
-          pierres du sauna.
-          <br />
-          {/* bg-clip-text → Applies the gradient only to the text. */}
-          <span className="font-bold">Les pierres</span> ici sont également une{" "}
-          <span className="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 bg-clip-text font-bold text-transparent">
-            {" "}
-            source de chaleur
-          </span>
-          .
+          Le principe du sauna est celui d'une masse de pierres qui prends une
+          forme propre: on passe d'une pierre sauvage à une architecture de
+          pierre plus maîtrisée jusqu'aux pierres du sauna. Les pierres ici sont
+          également une source de chaleur.
         </p>
-        <p>
+        <p className="my-2">
           Alors qu'en Finlande les saunas sont la plupart du temps en bois,
-          celui-ci redonne{" "}
-          <span className="font-bold">la valeur à la pierre</span> qui est
-          l'initiatrice du sauna Finlandais, sans lequelle il n'existe pas.
+          celui-ci redonne la valeur à la pierre qui est l'initiatrice du sauna
+          Finlandais, sans lequelle il n'existe pas.
         </p>
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 };
 
