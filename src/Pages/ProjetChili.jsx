@@ -1,4 +1,6 @@
 import React from "react";
+import { IoArrowBackOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import ImagesComp from "../Components/ImagesComp";
@@ -14,6 +16,13 @@ import {
 } from "../assets/images/projetsEcole/projetChili";
 
 const ProjetChili = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  };
+
   return (
     <div className="overflow-hidden">
       <Header />
@@ -56,16 +65,18 @@ const ProjetChili = () => {
           installer de la vie. À quel point la forme d'un logement peut-elle
           être influencée par un simple miroir ?
         </p>
+
         {/* prettier-ignore */}
-        <p className="prose text-black font-roboto text-xl">
-          Trois questions fondamentales ont guidé l'étude en prenant en compte le
-          site, son climat et le programme :
+        <div className="prose text-black font-roboto text-xl">
+         <p>Trois questions fondamentales ont guidé l'étude en prenant en compte le
+         site, son climat et le programme :</p> 
           <ul>
             <li>Comment se protéger efficacement du soleil tout en restant à l'ombre autant que possible ?</li> 
             <li>Comment tirer parti de l'énergie solaire grâce à l'inertie ?</li> 
             <li>Quel sera le lien avec la structure existante ?</li> 
           </ul> 
-        </p>
+        </div>
+
         <p className="mt-4">
           Une compréhension précise du territoire a été acquise grâce à des
           dessins détaillés du site à six échelles différentes.
@@ -76,14 +87,18 @@ const ProjetChili = () => {
           rigoureuse nous a permis de créer un schéma d'ombres, qui a servi de
           base à la conception des logements.
         </p>
-        {/* prettier-ignore */}
-        <p className="prose text-black font-roboto text-xl">
-          Nous avons réagi aux ombres de deux manières distinctes :
+
+        <div className="font-roboto prose text-xl text-black">
+          <p>Nous avons réagi aux ombres de deux manières distinctes :</p>
           <ol>
-            <li>En suivant fidèlement leur forme complexe.</li> 
-            <li>En rationalisant cette forme pour la rendre praticable, avec des lignes droites.</li>
+            <li>En suivant fidèlement leur forme complexe.</li>
+            <li>
+              En rationalisant cette forme pour la rendre praticable, avec des
+              lignes droites.
+            </li>
           </ol>
-        </p>
+        </div>
+
         <p className="mt-4">
           La disposition des logements est ainsi influencée par le mouvement des
           miroirs : chaque pièce bénéficie d'une exposition solaire différente
@@ -96,6 +111,15 @@ const ProjetChili = () => {
           d'ombre, formant ainsi le cœur du projet avec trois éléments clés : le
           patio, l'ombre et l'inertie.
         </p>
+      </div>
+
+      <div className="mt-10 flex justify-center">
+        <Link to="/projetsEcole" onClick={scrollToTop}>
+          <button className="font-roboto-bold flex items-center gap-2 rounded-full bg-[#0F4C81] px-6 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105">
+            <IoArrowBackOutline size={22} className="text-white" />
+            <span>Retour</span>
+          </button>
+        </Link>
       </div>
 
       <Footer />

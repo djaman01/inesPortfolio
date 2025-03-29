@@ -1,3 +1,5 @@
+import { IoArrowBackOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import { projet1 } from "../assets/images/projetsEcole";
 import {
   saunaFin1,
@@ -10,6 +12,13 @@ import Header from "../Components/Header";
 import ImagesComp from "../Components/ImagesComp";
 
 const SaunaFinlande = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  };
+
   return (
     <div className="overflow-hidden">
       <Header />
@@ -61,6 +70,15 @@ const SaunaFinlande = () => {
           celui-ci redonne la valeur à la pierre qui est l'initiatrice du sauna
           Finlandais, sans lequelle il n'existe pas.
         </p>
+      </div>
+
+      <div className="mt-10 flex justify-center">
+        <Link to="/projetsEcole" onClick={scrollToTop}>
+          <button className="font-roboto-bold flex items-center gap-2 rounded-full bg-[#0F4C81] px-6 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105">
+            <IoArrowBackOutline size={22} className="text-white" />
+            <span>Retour</span>
+          </button>
+        </Link>
       </div>
 
       <Footer />

@@ -14,6 +14,7 @@ import {
 } from "../assets/images/projetsEcole";
 
 const ProjetsEcole = () => {
+  //
   useEffect(() => {
     Aos.init({
       once: true,
@@ -22,6 +23,13 @@ const ProjetsEcole = () => {
       easing: "ease-in-out",
     });
   });
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  };
 
   return (
     <>
@@ -36,7 +44,7 @@ const ProjetsEcole = () => {
           </p>
         </div>
 
-        <Link to="/saunaFinlande">
+        <Link to="/saunaFinlande" onClick={scrollToTop}>
           <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
             <div
               className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#0F4C81] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
@@ -58,7 +66,7 @@ const ProjetsEcole = () => {
             </div>
           </div>
         </Link>
-        <Link to="/projetChili">
+        <Link to="/projetChili" onClick={scrollToTop}>
           <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
             <div
               className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#eec233] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
