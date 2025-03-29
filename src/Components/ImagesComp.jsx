@@ -29,6 +29,7 @@ const ImagesComp = ({
   image6,
   image7,
   image8,
+  image9,
   alt1,
   alt2,
   alt3,
@@ -37,6 +38,7 @@ const ImagesComp = ({
   alt6,
   alt7,
   alt8,
+  alt9,
 }) => {
   const settings = {
     nextArrow: <Arrow />,
@@ -155,6 +157,15 @@ const ImagesComp = ({
               <img
                 src={image8}
                 alt={alt8}
+                className="h-full w-full rounded-2xl object-contain max-lg:h-72"
+              />
+            </div>
+          )}
+          {image9 && (
+            <div className="px-2 lg:h-[700px]">
+              <img
+                src={image9}
+                alt={alt9}
                 className="h-full w-full rounded-2xl object-contain max-lg:h-72"
               />
             </div>
