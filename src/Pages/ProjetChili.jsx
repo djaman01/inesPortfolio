@@ -67,7 +67,7 @@ const ProjetChili = () => {
         </p>
 
         {/* prettier-ignore */}
-        <div className="prose text-black font-roboto text-xl">
+        <div className="prose text-black font-roboto text-xl prose-ul:list-inside prose-li:marker:text-black">
          <p>Trois questions fondamentales ont guidé l'étude en prenant en compte le
          site, son climat et le programme :</p> 
           <ul>
@@ -88,7 +88,7 @@ const ProjetChili = () => {
           base à la conception des logements.
         </p>
 
-        <div className="font-roboto prose text-xl text-black">
+        <div className="font-roboto prose text-xl text-black prose-ol:list-inside prose-li:marker:text-black">
           <p>Nous avons réagi aux ombres de deux manières distinctes :</p>
           <ol>
             <li>En suivant fidèlement leur forme complexe.</li>
