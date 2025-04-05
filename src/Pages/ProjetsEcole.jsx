@@ -66,6 +66,7 @@ const ProjetsEcole = () => {
             </div>
           </div>
         </Link>
+        
         <Link to="/projetChili" onClick={scrollToTop}>
           <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
             <div
@@ -89,26 +90,28 @@ const ProjetsEcole = () => {
           </div>
         </Link>
 
-        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
-          <div
-            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#2e8b57] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
-            data-aos="fade-right"
-          >
-            <h1 className="montserrat-strong text-center text-gray-900">
-              Construire une coopérative - Suisse
-            </h1>
+        <Link to="/projetSuisse" onClick={scrollToTop}>
+          <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+            <div
+              className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#2e8b57] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
+              data-aos="fade-right"
+            >
+              <h1 className="montserrat-strong text-center text-gray-900">
+                Construire une coopérative - Suisse
+              </h1>
+            </div>
+            <div
+              className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
+              data-aos="fade-left"
+            >
+              <img
+                src={projet3}
+                alt="Projet en Finlande"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
-          <div
-            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
-            data-aos="fade-left"
-          >
-            <img
-              src={projet3}
-              alt="Projet en Finlande"
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
+        </Link>
 
         <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
           <div

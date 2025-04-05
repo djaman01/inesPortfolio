@@ -10,6 +10,7 @@ import LienPFE from "./Pages/LienPFE";
 import ProjetsEcole from "./Pages/ProjetsEcole";
 import SaunaFinlande from "./Pages/SaunaFinlande";
 import ProjetChili from "./Pages/ProjetChili";
+import ProjetSuisse from "./Pages/ProjetSuisse";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Route path="/CV" element={<CV />}></Route>
       <Route path="/projetsEcole" element={<ProjetsEcole />}></Route>
       <Route path="/saunaFinlande" element={<SaunaFinlande />}></Route>
+      <Route path="/projetSuisse" element={<ProjetSuisse />}></Route>
       <Route path="/projetChili" element={<ProjetChili />}></Route>
       <Route path="/memoire" element={<Memoire />}></Route>
       <Route path="/lienMemoire" element={<LienMemoire />}></Route>
