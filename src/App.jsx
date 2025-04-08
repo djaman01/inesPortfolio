@@ -12,6 +12,7 @@ import SaunaFinlande from "./Pages/SaunaFinlande";
 import ProjetChili from "./Pages/ProjetChili";
 import ProjetSuisse from "./Pages/ProjetSuisse";
 import TheatreFrance from "./Pages/TheatreFrance";
+import HabiterMonde from "./Pages/HabiterMonde";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
       <Route path="/projetSuisse" element={<ProjetSuisse />}></Route>
       <Route path="/projetChili" element={<ProjetChili />}></Route>
       <Route path="/theatreFrance" element={<TheatreFrance />}></Route>
+      <Route path="/habiterMonde" element={<HabiterMonde />}></Route>
       <Route path="/memoire" element={<Memoire />}></Route>
       <Route path="/lienMemoire" element={<LienMemoire />}></Route>
       <Route path="/projetAgence" element={<ProjetAgence />}></Route>

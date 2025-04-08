@@ -51,7 +51,7 @@ const ProjetsEcole = () => {
               data-aos="fade-right"
             >
               <h1 className="montserrat-strong text-center text-gray-900">
-                Architecture de l'atmosphère - <br /> Finlande
+                Architecture de l'atmosphère <br /> Finlande
               </h1>
             </div>
             <div
@@ -74,7 +74,7 @@ const ProjetsEcole = () => {
               data-aos="fade-right"
             >
               <h1 className="montserrat-strong text-center text-gray-900">
-                At the edge of physics - <br /> Chili
+                At the edge of physics <br /> Chili
               </h1>
             </div>
             <div
@@ -97,7 +97,7 @@ const ProjetsEcole = () => {
               data-aos="fade-right"
             >
               <h1 className="montserrat-strong text-center text-gray-900">
-                Construire une coopérative - Suisse
+                Construire une coopérative <br /> Suisse
               </h1>
             </div>
             <div
@@ -112,27 +112,28 @@ const ProjetsEcole = () => {
             </div>
           </div>
         </Link>
-
-        <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
-          <div
-            className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#b87333] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
-            data-aos="fade-right"
-          >
-            <h1 className="montserrat-strong text-center text-gray-900">
-              Habiter le monde - <br /> France
-            </h1>
+        <Link to="/habiterMonde" onClick={scrollToTop}>
+          <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
+            <div
+              className="flex h-56 w-1/4 items-center justify-center border-l-4 border-[#b87333] bg-[#f9f6f1] shadow-xl max-lg:h-40 max-lg:w-full"
+              data-aos="fade-right"
+            >
+              <h1 className="montserrat-strong text-center text-gray-900">
+                Habiter le monde <br /> France
+              </h1>
+            </div>
+            <div
+              className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
+              data-aos="fade-left"
+            >
+              <img
+                src={projet4}
+                alt="Projet en Finlande"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
-          <div
-            className="h-56 w-3/4 shadow-xl max-lg:h-[410px] max-lg:w-full"
-            data-aos="fade-left"
-          >
-            <img
-              src={projet4}
-              alt="Projet en Finlande"
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
+        </Link>
         <Link to="/theatreFrance" onClick={scrollToTop}>
           <div className="mx-40 mt-16 flex cursor-pointer max-lg:mx-10 max-lg:mt-16 max-lg:flex-col">
             <div
@@ -140,7 +141,7 @@ const ProjetsEcole = () => {
               data-aos="fade-right"
             >
               <h1 className="montserrat-strong text-center text-gray-900">
-                Le théâtre du monde - <br /> France
+                Le théâtre du monde <br /> France
               </h1>
             </div>
             <div
