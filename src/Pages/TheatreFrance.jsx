@@ -12,6 +12,8 @@ import {
   theatre6,
 } from "../assets/images/projetsEcole/theatre";
 
+import { Helmet } from "react-helmet-async";
+
 const TheatreFrance = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -22,6 +24,46 @@ const TheatreFrance = () => {
 
   return (
     <div className="overflow-hidden">
+      <Helmet>
+        <meta name="robots" content="noindex" />
+
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Théâtre | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Découvrez le projet de 'Théâtre à l'italienne', réalisé par Inès Benbrahim Andaloussi."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/theatreFrance"
+        />
+        <meta
+          property="og:title"
+          content="Théâtre | Inès Benbrahim Andaloussi"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez le projet de 'Théâtre à l'italienne', réalisé par Inès Benbrahim Andaloussi."
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.inesbenbrahim.com/theatreFrance"
+        />
+      </Helmet>
+
       <Header />
       <div className="mb-5 mt-5 text-center">
         <h1 className="text-4xl font-extrabold text-gray-800">

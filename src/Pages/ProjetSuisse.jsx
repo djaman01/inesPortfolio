@@ -11,6 +11,8 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import ImagesComp from "../Components/ImagesComp";
 
+import { Helmet } from "react-helmet-async";
+
 const ProjetSuisse = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -21,6 +23,46 @@ const ProjetSuisse = () => {
 
   return (
     <div className="overflow-hidden">
+      <Helmet>
+        <meta name="robots" content="noindex" />
+
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Coopérative Zurich | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Découvrez le projet d'une coopérative à Zurich, en Suisse, réalisé par Inès Benbrahim Andaloussi."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/cooperativeZurich"
+        />
+        <meta
+          property="og:title"
+          content="Coopérative Zurich | Inès Benbrahim Andaloussi"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez le projet d'une coopérative à Zurich, en Suisse, réalisé par Inès Benbrahim Andaloussi."
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.inesbenbrahim.com/cooperativeZurich"
+        />
+      </Helmet>
+
       <Header />
       <div className="mb-5 mt-5 text-center">
         <h1 className="text-4xl font-extrabold text-gray-800">

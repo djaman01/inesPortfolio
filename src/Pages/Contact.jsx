@@ -1,16 +1,51 @@
-import { IoMailOutline } from "react-icons/io5";
 import { CiPhone } from "react-icons/ci";
-import { IoShareSocialOutline } from "react-icons/io5";
-import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { IoMailOutline, IoShareSocialOutline } from "react-icons/io5";
 
+import { Helmet } from "react-helmet-async";
 import ContactForm from "../Components/ContactForm";
-import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 const Contact = () => {
   return (
     <>
+      <Helmet>
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Contact | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Retrouvez tous mes contacts pour toute demande ou collaboration"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/contact"
+        />
+        <meta
+          property="og:title"
+          content="Contact | Inès Benbrahim Andaloussi"
+        />
+        <meta
+          property="og:description"
+          content="Retrouvez tous mes contacts pour toute demande ou collaboration"
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link rel="canonical" href="https://www.inesbenbrahim.com/contact" />
+      </Helmet>
+
       <Header />
       <main className="bg-gray-100 px-4 pt-5">
         <div className="mb-10 text-center">
@@ -25,7 +60,7 @@ const Contact = () => {
           {/* Email Card */}
           <div
             data-aos="fade-right"
-            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-48"
+            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:h-48 max-lg:w-72"
           >
             <div className="mb-4 rounded-full bg-[#0F4C81] p-4">
               <IoMailOutline color="white" size={24} />
@@ -37,7 +72,7 @@ const Contact = () => {
           {/* Phone Card */}
           <div
             data-aos="flip-up"
-            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-48 "
+            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:h-48 max-lg:w-72"
           >
             <div className="mb-4 rounded-full bg-[#0F4C81] p-4">
               <CiPhone color="white" size={24} />
@@ -51,7 +86,7 @@ const Contact = () => {
           {/* Social Card */}
           <div
             data-aos="fade-left"
-            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:w-72 max-lg:h-52"
+            className="flex w-96 flex-col items-center rounded-lg border-2 border-gray-400 bg-white p-6 text-center shadow-lg max-lg:mx-auto max-lg:h-52 max-lg:w-72"
           >
             <div className="mb-4 rounded-full bg-[#0F4C81] p-4">
               <IoShareSocialOutline color="white" size={24} />

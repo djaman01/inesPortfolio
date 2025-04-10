@@ -13,6 +13,8 @@ import {
   projet5,
 } from "../assets/images/projetsEcole";
 
+import { Helmet } from "react-helmet-async";
+
 const ProjetsEcole = () => {
   //
   useEffect(() => {
@@ -33,6 +35,43 @@ const ProjetsEcole = () => {
 
   return (
     <>
+      <Helmet>
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Projets Écoles | Inès Benbrahim Andaloussi </title>
+        <meta
+          name="description"
+          content="Retrouvez les projets que j'ai réalisé durant ma formation d'architecte"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/projetsEcole"
+        />
+        <meta
+          property="og:title"
+          content="Projets Écoles | Inès Benbrahim Andaloussi "
+        />
+        <meta
+          property="og:description"
+          content="Retrouvez les projets que j'ai réalisé durant ma formation d'architecte"
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.inesbenbrahim.com/projetsEcole"
+        />
+      </Helmet>
+
       <Header />
       <main>
         <div className="mb-5 mt-5 text-center">

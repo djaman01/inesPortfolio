@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 
 import Footer from "../Components/Footer";
 import Presentation from "./Presentation";
+import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
   useEffect(() => {
@@ -20,6 +21,42 @@ const HomePage = () => {
 
   return (
     <>
+      <Helmet>
+        {/* Mobile responsive settings */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        {/* Page title (50–60 characters ideal) */}
+        <title>Inès Benbrahim Andaloussi | Portfolio Architecte</title>
+
+        {/* Meta description (150–160 characters) */}
+        <meta
+          name="description"
+          content="Découvrez le portfolio d'Inès Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
+        />
+
+        {/* Open Graph tags for social sharing */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.ines-portfolio.com/" />
+        <meta
+          property="og:title"
+          content="Inès Benbrahim Andaloussi | Portfolio Architecte"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez le portfolio d'Inès Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
+        />
+        <meta
+          property="og:image"
+          content="https://www.ines-portfolio.com/assets/ines-portrait.png"
+        />
+
+        {/* Canonical URL to avoid duplicate content */}
+        <link rel="canonical" href="https://www.ines-portfolio.com/" />
+      </Helmet>
+
       <header className="mb-2 mt-2">
         <Header />
       </header>

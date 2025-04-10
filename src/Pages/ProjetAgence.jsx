@@ -11,6 +11,7 @@ import Header from "../Components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const ProjetAgence = () => {
   useEffect(() => {
@@ -41,6 +42,35 @@ const ProjetAgence = () => {
 
   return (
     <>
+      <Helmet>
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Projet Agence | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Découvrez le projet que j'ai realisé en agence"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.inesbenbrahim.com/projetAgence" />
+        <meta property="og:title" content="Projet Agence | Inès Benbrahim Andaloussi" />
+        <meta
+          property="og:description"
+          content="Découvrez le projet que j'ai realisé en agence"
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link rel="canonical" href="https://www.inesbenbrahim.com/projetAgence" />
+      </Helmet>
+
       <Header />
 
       <main>
@@ -48,7 +78,7 @@ const ProjetAgence = () => {
           <h1 className="text-4xl font-extrabold text-gray-800">
             Projet en agence
           </h1>
-          <p className="mt-2 text-lg text-gray-600 mb-10">
+          <p className="mb-10 mt-2 text-lg text-gray-600">
             Agence Chartier Dalix - 2023
           </p>
         </div>

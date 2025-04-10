@@ -11,6 +11,8 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import ImagesComp from "../Components/ImagesComp";
 
+import { Helmet } from "react-helmet-async";
+
 const SaunaFinlande = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -21,6 +23,39 @@ const SaunaFinlande = () => {
 
   return (
     <div className="overflow-hidden">
+        <Helmet>
+        {/* Indique à Google et aux autres moteurs de recherche de ne pas indexer cette page (mais ça suivra toujours les liens qu'elle contient car on n'a pas mis nofollow; ce qui aidera par ex au referencement de la page accueil car il y a des liens vers cette page*/}
+        {/* Mais la balise Helmet est importante pour le titre et les partages dans les réseaux sociaux */}
+        <meta name="robots" content="noindex" />
+
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Sauna Finlande | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Découvrez le projet de sauna en Finlande réalisé par Inès Benbrahim Andaloussi."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.inesbenbrahim.com/saunaFinlande" />
+        <meta property="og:title" content="Sauna Finlande | Inès Benbrahim Andaloussi" />
+        <meta
+          property="og:description"
+          content="Découvrez le projet de sauna en Finlande réalisé par Inès Benbrahim Andaloussi."
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link rel="canonical" href="https://www.inesbenbrahim.com/saunaFinlande" />
+      </Helmet>
+
       <Header />
       <div className="mb-5 mt-5 text-center">
         <h1 className="text-4xl font-extrabold text-gray-800">

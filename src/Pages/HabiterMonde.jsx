@@ -14,6 +14,8 @@ import ImagesComp from "../Components/ImagesComp";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
+import { Helmet } from "react-helmet-async";
+
 const HabiterMonde = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -23,6 +25,46 @@ const HabiterMonde = () => {
   };
   return (
     <div className="overflow-hidden">
+      <Helmet>
+        <meta name="robots" content="noindex" />
+
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>Habiter le Monde | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Découvrez le projet 'Habiter le Monde', réalisé par Inès Benbrahim Andaloussi."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/habiterMonde"
+        />
+        <meta
+          property="og:title"
+          content="Habiter le Monde | Inès Benbrahim Andaloussi"
+        />
+        <meta
+          property="og:description"
+          content="Découvrez le projet 'Habiter le Monde', réalisé par Inès Benbrahim Andaloussi."
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.inesbenbrahim.com/habiterMonde"
+        />
+      </Helmet>
+
       <Header />
       <div className="mb-5 mt-5 text-center">
         <h1 className="text-4xl font-extrabold text-gray-800">

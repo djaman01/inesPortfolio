@@ -5,6 +5,7 @@ import Header from "../Components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import { ecole, logement, paysage, place } from "../assets/images";
 
 const ProjetFinEtude = () => {
@@ -20,6 +21,40 @@ const ProjetFinEtude = () => {
 
   return (
     <>
+      <Helmet>
+        {/* Balise pour gérer le responsive quelque soit la taille de l'écran:  */}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <title>PFE | Inès Benbrahim Andaloussi </title>
+
+        <meta
+          name="description"
+          content="Retrouvez mon projet de fin d'études que vous pouvez télécharger ou imprimer"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/pfe"
+        />
+        <meta
+          property="og:title"
+          content="PFE | Inès Benbrahim Andaloussi"
+        />
+        <meta
+          property="og:description"
+          content="Retrouvez mon projet de fin d'études que vous pouvez télécharger ou imprimer"
+        />
+        <meta
+          property="og:image"
+          content="https://www.inesbenbrahim.com/assets/ines-benbrahim.png"
+        />
+
+        <link rel="canonical" href="https://www.inesbenbrahim.com/pfe" />
+      </Helmet>
       <Header />
 
       <div className="mb-10 mt-5 text-center">
