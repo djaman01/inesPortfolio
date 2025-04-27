@@ -72,7 +72,7 @@ const HomePage = () => {
         </div>
 
         {/* inset-0: place le div tout en haut-à gauche du container / bg-black/5= 5% opacity = on ne voit que 5% du bg-noir qui devient transparent pour assombrir l'image et mieux faire apparaitre le texte | /100 = bg tout noir = bg-black */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/5 pr-96 text-center text-white max-lg:w-80 max-lg:pr-28">
+        <div className="absolute inset-0 flex flex-col items-center justify-center pr-96 text-center text-white max-lg:w-80 max-lg:pr-28">
           <h1
             data-aos="fade-right"
             className="font-roboto-bold mt-[-140px] text-[45px] font-bold max-lg:mt-[-15px] max-lg:text-[32px]"
