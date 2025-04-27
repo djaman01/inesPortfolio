@@ -25,7 +25,7 @@ const Memoire = () => {
   });
 
   return (
-    <>
+    <div className="overflow-hidden">
       <Header />
 
       <Helmet>
@@ -60,12 +60,12 @@ const Memoire = () => {
         <link rel="canonical" href="https://www.inesbenbrahim.com/memoire" />
       </Helmet>
 
-      <main className="overflow-hidden">
+      <main className="mb-40">
         <div className="mb-10 mt-5 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">
             Mémoire de recherche
           </h1>
-          <p className="mt-2 text-lg text-gray-600 max-lg:w-72 max-lg:mx-auto">
+          <p className="mt-2 text-lg text-gray-600 max-lg:mx-auto max-lg:w-72">
             Un résumé de mon mémoire <span className="max-lg:hidden">|</span>{" "}
             <Link
               to="/lienMemoire"
@@ -126,15 +126,15 @@ const Memoire = () => {
               <img
                 className="h-full w-full rounded-xl"
                 src={imagepara1}
-                alt="Gants de gommage pour Hammam"
+                alt="Image 1"
               />
             </div>
 
             <div data-aos="fade-right" className="max-lg:order-4">
               <img
-                className="h-full w-full rounded-xl"
+                className="h- w-full rounded-xl"
                 src={imagepara2}
-                alt="Faire Affaire avec nous"
+                alt="Image 2"
               />
             </div>
 
@@ -175,7 +175,7 @@ const Memoire = () => {
 
             <div
               data-aos="fade-right"
-              className="max-lg:order-5 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:pb-5 max-lg:shadow-xl"
+              className="max-lg:order-5 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:pb-5 max-lg:shadow-xl lg:mt-32"
             >
               <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] lg:mt-[-10px]">
                 ….Faire sans Refaire
@@ -230,19 +230,18 @@ const Memoire = () => {
               </p>
             </div>
 
-            <div data-aos="fade-left" className="max-lg:order-6">
+            <div data-aos="fade-left" className="max-lg:order-6 lg:mt-28">
               <img
                 className="h-full w-full rounded-xl"
                 src={imagepara3}
-                alt="carte du monde"
+                alt="Image 3"
               />
             </div>
           </div>
         </div>
       </main>
-
       <Footer />
-    </>
+    </div>
   );
 };
 

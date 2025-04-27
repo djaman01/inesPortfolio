@@ -20,7 +20,7 @@ const Footer = () => {
             Contact
           </h4>
 
-          <ul>
+          <ul className="text-center">
             <li className="font-roboto mt-3 text-lg leading-normal">
               <b>Mail:</b> ines.anda@gmail.com
             </li>
@@ -41,11 +41,7 @@ const Footer = () => {
               onClick={scrollToTop}
             />
           </Link>
-          <div className="max-lg:mb-3">
-            <p className="text-white-400 martian-mono-regular mt-3 w-[400px] text-center text-base leading-7 max-lg:w-[350px] max-lg:text-center">
-              Portfolio
-            </p>
-          </div>
+        
         </div>
 
         <div className="flex flex-col items-center max-lg:order-3">
