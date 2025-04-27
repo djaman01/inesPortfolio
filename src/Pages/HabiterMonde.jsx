@@ -34,11 +34,11 @@ const HabiterMonde = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Habiter le Monde | Inès Andaloussi </title>
+        <title>Habiter le Monde | Ines Andaloussi </title>
 
         <meta
           name="description"
-          content="Découvrez le projet 'Habiter le Monde', réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet 'Habiter le Monde', réalisé par Ines Benbrahim Andaloussi."
         />
 
         <meta property="og:type" content="website" />
@@ -48,11 +48,11 @@ const HabiterMonde = () => {
         />
         <meta
           property="og:title"
-          content="Habiter le Monde | Inès Andaloussi"
+          content="Habiter le Monde | Ines Andaloussi"
         />
         <meta
           property="og:description"
-          content="Découvrez le projet 'Habiter le Monde', réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet 'Habiter le Monde', réalisé par Ines Benbrahim Andaloussi."
         />
         <meta
           property="og:image"

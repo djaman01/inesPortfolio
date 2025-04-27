@@ -49,7 +49,7 @@ const ProjetAgence = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Projet Agence | Inès Andaloussi </title>
+        <title>Projet Agence | Ines Andaloussi </title>
 
         <meta
           name="description"
@@ -58,7 +58,7 @@ const ProjetAgence = () => {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.inesbenbrahim.com/projetAgence" />
-        <meta property="og:title" content="Projet Agence | Inès Andaloussi" />
+        <meta property="og:title" content="Projet Agence | Ines Andaloussi" />
         <meta
           property="og:description"
           content="Découvrez le projet que j'ai realisé en agence"

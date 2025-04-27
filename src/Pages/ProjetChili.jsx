@@ -35,11 +35,11 @@ const ProjetChili = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Centrale Chili | Inès Andaloussi </title>
+        <title>Centrale Chili | Ines Andaloussi </title>
 
         <meta
           name="description"
-          content="Découvrez le projet de Centrale Thermique réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet de Centrale Thermique réalisé par Ines Benbrahim Andaloussi."
         />
 
         <meta property="og:type" content="website" />
@@ -49,11 +49,11 @@ const ProjetChili = () => {
         />
         <meta
           property="og:title"
-          content="Centrale Chili | Inès Andaloussi"
+          content="Centrale Chili | Ines Andaloussi"
         />
         <meta
           property="og:description"
-          content="Découvrez le projet de centrale thermique réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet de centrale thermique réalisé par Ines Benbrahim Andaloussi."
         />
         <meta
           property="og:image"

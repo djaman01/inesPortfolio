@@ -18,7 +18,7 @@ const Contact = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Contact | Inès Andaloussi </title>
+        <title>Contact | Ines Andaloussi </title>
 
         <meta
           name="description"
@@ -32,7 +32,7 @@ const Contact = () => {
         />
         <meta
           property="og:title"
-          content="Contact | Inès Andaloussi"
+          content="Contact | Ines Andaloussi"
         />
         <meta
           property="og:description"

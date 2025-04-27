@@ -32,11 +32,11 @@ const ProjetSuisse = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Coopérative Zurich | Inès Andaloussi </title>
+        <title>Coopérative Zurich | Ines Andaloussi </title>
 
         <meta
           name="description"
-          content="Découvrez le projet d'une coopérative à Zurich, en Suisse, réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet d'une coopérative à Zurich, en Suisse, réalisé par Ines Benbrahim Andaloussi."
         />
 
         <meta property="og:type" content="website" />
@@ -46,11 +46,11 @@ const ProjetSuisse = () => {
         />
         <meta
           property="og:title"
-          content="Coopérative Zurich | Inès Andaloussi"
+          content="Coopérative Zurich | Ines Andaloussi"
         />
         <meta
           property="og:description"
-          content="Découvrez le projet d'une coopérative à Zurich, en Suisse, réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet d'une coopérative à Zurich, en Suisse, réalisé par Ines Benbrahim Andaloussi."
         />
         <meta
           property="og:image"

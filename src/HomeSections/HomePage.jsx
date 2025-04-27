@@ -29,12 +29,12 @@ const HomePage = () => {
         />
 
         {/* Page title (50–60 characters ideal) */}
-        <title>Inès Andaloussi | Portfolio Architecte</title>
+        <title>Ines Andaloussi | Portfolio Architecte</title>
 
         {/* Meta description (150–160 characters) */}
         <meta
           name="description"
-          content="Découvrez le portfolio d'Inès Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
+          content="Découvrez le portfolio d'Ines Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
         />
 
         {/* Open Graph tags for social sharing */}
@@ -42,11 +42,11 @@ const HomePage = () => {
         <meta property="og:url" content="https://www.ines-portfolio.com/" />
         <meta
           property="og:title"
-          content="Inès Andaloussi | Portfolio Architecte"
+          content="Ines Andaloussi | Portfolio Architecte"
         />
         <meta
           property="og:description"
-          content="Découvrez le portfolio d'Inès Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
+          content="Découvrez le portfolio d'Ines Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
         />
         <meta
           property="og:image"
@@ -66,7 +66,7 @@ const HomePage = () => {
           <img
             data-aos="fade-left"
             src={inesAnda}
-            alt="Photo inès Andaloussi"
+            alt="Photo ines Andaloussi"
             className="h-full w-full rounded-2xl border object-cover object-top"
           />
         </div>

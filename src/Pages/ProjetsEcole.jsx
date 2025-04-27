@@ -42,7 +42,7 @@ const ProjetsEcole = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Projets Écoles | Inès Andaloussi </title>
+        <title>Projets Écoles | Ines Andaloussi </title>
         <meta
           name="description"
           content="Retrouvez les projets que j'ai réalisé durant ma formation d'architecte"
@@ -55,7 +55,7 @@ const ProjetsEcole = () => {
         />
         <meta
           property="og:title"
-          content="Projets Écoles | Inès Andaloussi "
+          content="Projets Écoles | Ines Andaloussi "
         />
         <meta
           property="og:description"

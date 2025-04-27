@@ -33,11 +33,11 @@ const TheatreFrance = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Théâtre | Inès Andaloussi </title>
+        <title>Théâtre | Ines Andaloussi </title>
 
         <meta
           name="description"
-          content="Découvrez le projet de 'Théâtre à l'italienne', réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet de 'Théâtre à l'italienne', réalisé par Ines Benbrahim Andaloussi."
         />
 
         <meta property="og:type" content="website" />
@@ -47,11 +47,11 @@ const TheatreFrance = () => {
         />
         <meta
           property="og:title"
-          content="Théâtre | Inès Andaloussi"
+          content="Théâtre | Ines Andaloussi"
         />
         <meta
           property="og:description"
-          content="Découvrez le projet de 'Théâtre à l'italienne', réalisé par Inès Benbrahim Andaloussi."
+          content="Découvrez le projet de 'Théâtre à l'italienne', réalisé par Ines Benbrahim Andaloussi."
         />
         <meta
           property="og:image"

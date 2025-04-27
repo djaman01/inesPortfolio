@@ -28,7 +28,7 @@ const ProjetFinEtude = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>PFE | Inès Andaloussi </title>
+        <title>PFE | Ines Andaloussi </title>
 
         <meta
           name="description"
@@ -37,7 +37,7 @@ const ProjetFinEtude = () => {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.inesbenbrahim.com/pfe" />
-        <meta property="og:title" content="PFE | Inès Andaloussi" />
+        <meta property="og:title" content="PFE | Ines Andaloussi" />
         <meta
           property="og:description"
           content="Retrouvez mon projet de fin d'études que vous pouvez télécharger ou imprimer"
