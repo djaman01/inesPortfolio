@@ -73,8 +73,8 @@ const ProjetAgence = () => {
 
       <Header />
 
-      <main>
-        <div className="mb-5 mt-5 text-center overflow-hidden">
+      <main className="overflow-hidden">
+        <div className="mb-5 mt-5 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">
             Projet en agence
           </h1>

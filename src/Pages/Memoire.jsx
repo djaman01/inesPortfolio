@@ -60,7 +60,7 @@ const Memoire = () => {
         <link rel="canonical" href="https://www.inesbenbrahim.com/memoire" />
       </Helmet>
 
-      <main>
+      <main className="overflow-hidden">
         <div className="mb-10 mt-5 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">
             Mémoire de recherche
@@ -86,7 +86,7 @@ const Memoire = () => {
           />
         </div>
 
-        <main className="mt-1 overflow-hidden">
+        <div className="mt-1">
           <div className="my-10 grid grid-cols-2 grid-rows-[470px,400px,580px] max-lg:mx-5 max-lg:flex max-lg:flex-col max-lg:gap-y-5 lg:mx-16 lg:gap-x-14 lg:gap-y-20">
             <div className="max-lg:order-1 max-lg:rounded-lg max-lg:border max-lg:border-slate-400 max-lg:px-5 max-lg:py-2 max-lg:shadow-xl">
               <h1 className="font-montserrat mb-5 text-left text-3xl font-bold text-[#0F4C81] lg:mt-[-10px]">
@@ -238,7 +238,7 @@ const Memoire = () => {
               />
             </div>
           </div>
-        </main>
+        </div>
       </main>
 
       <Footer />
