@@ -14,8 +14,8 @@ const Footer = () => {
 
   return (
     <footer className="mt-20 bg-[#0F4C81] text-white">
-      <div className="padding-x grid grid-cols-3 pb-2 pt-5 max-lg:grid-cols-1">
-        <div className="flex flex-col items-center max-lg:order-2 max-lg:mt-4">
+      <div className="padding-x grid grid-cols-3 pb-3 pt-5 max-lg:grid-cols-1">
+        <div className="flex flex-col items-center max-lg:order-2 max-lg:mt-4 max-lg:mb-3">
           <h4 className="font-montserrat text-2xl font-medium leading-normal">
             Contact
           </h4>
@@ -24,7 +24,7 @@ const Footer = () => {
             <li className="font-roboto mt-2 text-lg leading-normal">
               <b>Mail:</b> ines.anda@gmail.com
             </li>
-            <li className="font-roboto mt-3 text-lg leading-normal">
+            <li className="font-roboto mt-2 text-lg leading-normal">
               <b>Tel:</b> +33 7 52 89 95 49
             </li>
           </ul>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-center max-lg:order-3">
-          <h4 className="font-montserrat mb-4 mt-2 text-2xl font-medium leading-normal">
+          <h4 className="font-montserrat mb-4 text-2xl font-medium leading-normal">
             Réseaux Sociaux
           </h4>
           <div className="flex w-32 justify-between">
