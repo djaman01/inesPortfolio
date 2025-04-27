@@ -43,7 +43,10 @@ const Memoire = () => {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.inesbenbrahim.com/memoire" />
+        <meta
+          property="og:url"
+          content="https://www.inesbenbrahim.com/memoire"
+        />
         <meta property="og:title" content="Mémoire | Inès Andaloussi" />
         <meta
           property="og:description"
@@ -63,7 +66,7 @@ const Memoire = () => {
             Mémoire de recherche
           </h1>
           <p className="mt-2 text-lg text-gray-600">
-            Un résumé de mon mémoire ou{" "}
+            Un résumé de mon mémoire |{" "}
             <Link
               to="/lienMemoire"
               className="text-blue-600 underline hover:text-blue-800"
