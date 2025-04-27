@@ -34,7 +34,7 @@ const SaunaFinlande = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Sauna Finlande | Inès Benbrahim Andaloussi </title>
+        <title>Sauna Finlande | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -43,7 +43,7 @@ const SaunaFinlande = () => {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.inesbenbrahim.com/saunaFinlande" />
-        <meta property="og:title" content="Sauna Finlande | Inès Benbrahim Andaloussi" />
+        <meta property="og:title" content="Sauna Finlande | Inès Andaloussi" />
         <meta
           property="og:description"
           content="Découvrez le projet de sauna en Finlande réalisé par Inès Benbrahim Andaloussi."

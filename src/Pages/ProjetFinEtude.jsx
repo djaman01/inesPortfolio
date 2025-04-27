@@ -28,7 +28,7 @@ const ProjetFinEtude = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>PFE | Inès Benbrahim Andaloussi </title>
+        <title>PFE | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -42,7 +42,7 @@ const ProjetFinEtude = () => {
         />
         <meta
           property="og:title"
-          content="PFE | Inès Benbrahim Andaloussi"
+          content="PFE | Inès Andaloussi"
         />
         <meta
           property="og:description"

@@ -35,7 +35,7 @@ const Memoire = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Mémoire | Inès Benbrahim Andaloussi </title>
+        <title>Mémoire | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -44,7 +44,7 @@ const Memoire = () => {
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.inesbenbrahim.com/memoire" />
-        <meta property="og:title" content="Mémoire | Inès Benbrahim Andaloussi" />
+        <meta property="og:title" content="Mémoire | Inès Andaloussi" />
         <meta
           property="og:description"
           content="Retrouvez mon mémoire que vous pouvez télécharger ou imprimer"

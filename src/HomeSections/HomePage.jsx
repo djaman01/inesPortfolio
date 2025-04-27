@@ -29,7 +29,7 @@ const HomePage = () => {
         />
 
         {/* Page title (50–60 characters ideal) */}
-        <title>Inès Benbrahim Andaloussi | Portfolio Architecte</title>
+        <title>Inès Andaloussi | Portfolio Architecte</title>
 
         {/* Meta description (150–160 characters) */}
         <meta
@@ -42,7 +42,7 @@ const HomePage = () => {
         <meta property="og:url" content="https://www.ines-portfolio.com/" />
         <meta
           property="og:title"
-          content="Inès Benbrahim Andaloussi | Portfolio Architecte"
+          content="Inès Andaloussi | Portfolio Architecte"
         />
         <meta
           property="og:description"

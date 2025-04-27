@@ -33,7 +33,7 @@ const TheatreFrance = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Théâtre | Inès Benbrahim Andaloussi </title>
+        <title>Théâtre | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -47,7 +47,7 @@ const TheatreFrance = () => {
         />
         <meta
           property="og:title"
-          content="Théâtre | Inès Benbrahim Andaloussi"
+          content="Théâtre | Inès Andaloussi"
         />
         <meta
           property="og:description"

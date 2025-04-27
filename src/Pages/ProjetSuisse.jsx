@@ -32,7 +32,7 @@ const ProjetSuisse = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Coopérative Zurich | Inès Benbrahim Andaloussi </title>
+        <title>Coopérative Zurich | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -46,7 +46,7 @@ const ProjetSuisse = () => {
         />
         <meta
           property="og:title"
-          content="Coopérative Zurich | Inès Benbrahim Andaloussi"
+          content="Coopérative Zurich | Inès Andaloussi"
         />
         <meta
           property="og:description"

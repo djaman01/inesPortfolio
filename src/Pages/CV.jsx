@@ -13,7 +13,7 @@ const CV = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>CV | Inès Benbrahim Andaloussi </title>
+        <title>CV | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -27,7 +27,7 @@ const CV = () => {
         />
         <meta
           property="og:title"
-          content="CV | Inès Benbrahim Andaloussi"
+          content="CV | Inès Andaloussi"
         />
         <meta
           property="og:description"

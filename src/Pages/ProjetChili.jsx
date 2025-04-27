@@ -35,7 +35,7 @@ const ProjetChili = () => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <title>Centrale Chili | Inès Benbrahim Andaloussi </title>
+        <title>Centrale Chili | Inès Andaloussi </title>
 
         <meta
           name="description"
@@ -49,7 +49,7 @@ const ProjetChili = () => {
         />
         <meta
           property="og:title"
-          content="Centrale Chili | Inès Benbrahim Andaloussi"
+          content="Centrale Chili | Inès Andaloussi"
         />
         <meta
           property="og:description"
