@@ -60,7 +60,7 @@ const Memoire = () => {
         <link rel="canonical" href="https://www.inesbenbrahim.com/memoire" />
       </Helmet>
 
-      <main className="mb-40">
+      <main className="lg:mb-40">
         <div className="mb-10 mt-5 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">
             Mémoire de recherche
