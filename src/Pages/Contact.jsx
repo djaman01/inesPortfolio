@@ -47,7 +47,7 @@ const Contact = () => {
       </Helmet>
 
       <Header />
-      <main className="bg-gray-100 px-4 pt-5">
+      <main className="bg-gray-100 px-4 pt-5 overflow-hidden">
         <div className="mb-10 text-center">
           <h1 className="text-4xl font-extrabold text-gray-800">Contact</h1>
           <p className="mt-2 text-lg text-gray-600">

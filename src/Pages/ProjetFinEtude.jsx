@@ -57,7 +57,7 @@ const ProjetFinEtude = () => {
       </Helmet>
       <Header />
 
-      <div className="mb-10 mt-5 text-center">
+      <div className="mb-10 mt-5 text-center overflow-hidden">
         <h1 className="text-4xl font-extrabold text-gray-800 max-lg:mx-1">
           Projet de fin d'études
         </h1>

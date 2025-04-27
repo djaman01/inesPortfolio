@@ -74,7 +74,7 @@ const ProjetAgence = () => {
       <Header />
 
       <main>
-        <div className="mb-5 mt-5 text-center">
+        <div className="mb-5 mt-5 text-center overflow-hidden">
           <h1 className="text-4xl font-extrabold text-gray-800">
             Projet en agence
           </h1>
