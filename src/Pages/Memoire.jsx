@@ -65,13 +65,13 @@ const Memoire = () => {
           <h1 className="text-4xl font-extrabold text-gray-800">
             Mémoire de recherche
           </h1>
-          <p className="mt-2 text-lg text-gray-600">
-            Un résumé de mon mémoire |{" "}
+          <p className="mt-2 text-lg text-gray-600 max-lg:w-72 max-lg:mx-auto">
+            Un résumé de mon mémoire <span className="max-lg:hidden">|</span>{" "}
             <Link
               to="/lienMemoire"
               className="text-blue-600 underline hover:text-blue-800"
             >
-              cliquez sur ce lien
+              Cliquez
             </Link>{" "}
             pour le lire en entier
           </p>
