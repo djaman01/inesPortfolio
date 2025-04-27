@@ -61,7 +61,7 @@ const HomePage = () => {
         <Header />
       </header>
 
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <div className="h-[630px] w-full border max-lg:h-[300px]">
           <img
             data-aos="fade-left"
