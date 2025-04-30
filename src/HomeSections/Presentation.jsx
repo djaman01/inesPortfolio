@@ -46,7 +46,7 @@ const Presentation = () => {
           </p>
           <p>
             <span className="font-bold">A</span>u cours de mes années d'études
-            en école d'architecture, j'ai développé de nombreuse compétence,
+            en école d'architecture, j'ai développé de nombreuses compétences,
             cherchant constamment à repousser mes propres limites pour relever
             de nouveaux défis et perfectionner mes aptitudes.
           </p>
