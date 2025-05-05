@@ -5,9 +5,9 @@ import Header from "../Components/Header";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import { Helmet } from "react-helmet-async";
 import Footer from "../Components/Footer";
 import Presentation from "./Presentation";
-import { Helmet } from "react-helmet-async";
 
 const HomePage = () => {
   useEffect(() => {
@@ -48,13 +48,14 @@ const HomePage = () => {
           property="og:description"
           content="Découvrez le portfolio d'Ines Benbrahim Andaloussi, architecte diplômée d'État de l'ENSA Versailles et parcourez ses projets et réalisations."
         />
+        {/* Il faut utiliser les images dans le public folder */}
         <meta
           property="og:image"
-          content="https://www.ines-portfolio.com/assets/ines-portrait.png"
+          content="https://www.inesandaloussi.com/mediaLogoInes.jpg"
         />
 
         {/* Canonical URL to avoid duplicate content */}
-        <link rel="canonical" href="https://www.ines-portfolio.com/" />
+        <link rel="canonical" href="https://www.inesandaloussi.com/" />
       </Helmet>
 
       <header className="mb-2 mt-2">
