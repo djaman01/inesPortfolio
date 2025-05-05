@@ -39,7 +39,7 @@ const HomePage = () => {
 
         {/* Open Graph tags for social sharing */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.ines-portfolio.com/" />
+        <meta property="og:url" content="https://www.inesandaloussi.com/" />
         <meta
           property="og:title"
           content="Ines Andaloussi | Portfolio Architecte"
